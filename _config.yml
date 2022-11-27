@@ -106,7 +106,8 @@ analytics:
 author:
   name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I only lent you my body. /n You lent me your **dream**."
+  bio              : "I only lent you my body.  
+  You lent me your **dream**."
   location         : "Somewhere"
   email            :
   links:
