@@ -10,15 +10,13 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   
 
-  ![img](https://blog.kakaocdn.net/dn/nc0rQ/btrRAEyYbyq/GWIZFiacEY2RouK8ZJIjuk/img.png)
-
-  
+  ![다운로드](/Users/kangdy/Desktop/blogging/egshkim.github.io/images/ResNet-review/다운로드.png)
 
   **Why this paper has so powerful impact ?**
 
   1.  This paper introduced “Skip Connection” for the first time which is used in State-of-the-art Deep Learning Models like YOLO, Transformer, U-Net, etc.
   2.  This paper made “Deep” possible in Deep Learning. It has enabled neural networks to stack extremely deep layers in a very economic way.
-
+  
   From this, it is possible to estimate how important ResNet is in the field of deep learning.
 
 
@@ -36,11 +34,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   [https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
 
-   [A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way
 
-  Artificial Intelligence has been witnessing a monumental growth in bridging the gap between the capabilities of humans and machines…
-
-  towardsdatascience.com](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
 
   I review every paragraphs in Abstract and Introduction because all paragraphs contain very important content.
 
@@ -48,7 +42,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   So, Let’s get started !
 
-  ---
+---
 
   ### **Abstract & The heart of the paper**
 
@@ -61,7 +55,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
           
       -   Even **extremely deep ResNet are easy to optimize.**
 
-  ---
+---
 
   [##_Image|kage@vSDGw/btrRCYQ41qc/DA1PpVxn41rCGMpUlHSOvK/img.png|CDM|1.3|{"originWidth":686,"originHeight":458,"style":"floatRight","width":450,"height":300}_##]
 
@@ -77,7 +71,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
           -   **Recent state-of-the-art models on ImageNet have stacked 16~30 layers.**  
               (Quite deep, isnt’ it?)
 
-  ---
+---
 
   [##_Image|kage@lstQq/btrRAiQAmtx/90Z829dDtmTRMOESuRBuk0/img.png|CDM|1.3|{"originWidth":844,"originHeight":422,"style":"floatRight","width":450,"height":225}_##]
 
@@ -105,7 +99,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   **However.. We faced another problem.**
 
-  ---
+---
 
   ### **The 3rd paragraph in Introduction**
 
@@ -126,7 +120,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   #### **So what on earth is the problem ?**
 
-  ---
+---
 
   ### **The 4th paragraph in Introduction**
 
@@ -179,7 +173,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   So, how can we reduce the difficulty of optimization?
 
-  ---
+---
 
   ### **The 5th paragraph in Introduction**
 
@@ -265,7 +259,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
   **"Residual Networks" with Residual Connections**  
   can be made.
 
-  ---
+---
 
   ### **The 7th ~ 9th paragraph in Introduction**
 
@@ -304,7 +298,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   Let's look into details in Figures and Tables.
 
-  ---
+---
 
   ### **Figure 3**
 
@@ -332,7 +326,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
               -   Zero padding shortcuts
               -   Projection shortcuts
 
-  ---
+---
 
   ### **Table 1**
 
@@ -356,7 +350,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   [##_Image|kage@dsGCtZ/btrREV7zrbr/Nk0cu2Y4ih1q3bfLjECNr0/img.png|CDM|1.3|{"originWidth":688,"originHeight":315,"style":"alignCenter","caption":"Modified Table 1 with padding times information."}_##]
 
-  ---
+---
 
   ### **Table 2**
 
@@ -404,7 +398,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
       -   If Neural Network is not very deep, Plain net performs quite good. (27.94 vs 27.88)
       -   But you should still use **ResNet. It optimizes very fast.** 
 
-  ---
+---
 
   ### **Table 3 ~ 5**
 
@@ -423,7 +417,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   **Table 3** summarized validation errors with the above two methods in various combinations on **Dimension Increasing Shortcuts and Dimension Staying Shortcuts.**
 
-  ---
+---
 
   Let's look into the **middle part of Table 3.**
 
@@ -458,7 +452,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
       
   -   **Used economic option B in the left experiments.**
 
-  ---
+---
 
   Let's look into **the bottom of Table 3.**
 
@@ -488,7 +482,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
   the number of parameters of the botleneck building block in the blue box is less than that of the building block in the red box,  
   so the operation will be efficient.
 
-  ---
+---
 
   summarizes the bottom of Table 3  + Table 4 + Table 5 :
 
@@ -508,7 +502,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
       -   Made a ResNet Ensemble with 6 different ResNets.
       -   Won 2015 ILSVRC with Top-5 error 3.57% (Improved existing error 26%.)
 
-  ---
+---
 
   ### **Table 6**
 
@@ -541,11 +535,11 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   → Reviewing those models' papers, It was. However, augmentation mothods differ.
 
-  ---
+---
 
   ### **Figure 6**
 
-  ---
+---
 
   Let's look into the left of Figure 6.
 
@@ -571,7 +565,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
   -   Similar observations have been reported with MNIST dataset.  
       -   _R. K. Srivastava, K. Greff, and J. Schmidhuber. Highway networks. arXiv:1505.00387, 2015._
 
-  ---
+---
 
   The following conclusions can be drawn through the picture in the middle of Figure 6 and the picture on the right of Figure 4.
 
@@ -586,7 +580,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
   -   the right of Figure 4
       -   Similar observations have been made with ImageNet dataset.
 
-  ---
+---
 
   Thereafter, the ResNet model with 1202 layers was evaluated by setting n = 200.
 
@@ -602,7 +596,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   It is also mentioned that follow-up research will be conducted by applying a Regularization technique such as Dropout.
 
-  ---
+---
 
   ### **Figure 7**
 
@@ -615,7 +609,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   **Figure 7 supports** such expectations.
 
-  ---
+---
 
   ### **Table 7, 8**
 
@@ -623,7 +617,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   Tables 7 and 8 show the results of experiments with ResNet on the Object Detection task, not the Image Classification task.
 
-  ---
+---
 
   Lastly, the authors wrap up this paper emphasizing on the excellence of ResNet, revealing that ResNet has won the following competitions.
 
