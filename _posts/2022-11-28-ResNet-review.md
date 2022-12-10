@@ -442,18 +442,18 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   <span style='background-color:orange; font-size:20pt;'>**Table 3 ~ 5**
 
-  When dimension increases by shortcut connections,
-  Used 2 methods to make the dimensions be identical.  
+  When dimension increases by shortcut connections,  
+  **Used 2 methods to make the dimensions be identical.**  
   (Refer to Figure 3 explanation)
 
-![Table3~5](/assets/images/ResNet-review/다운로드 (23).png){: width="50%" height="50%"}
+![Table3~5](/assets/images/ResNet-review/다운로드 (23).png){: width="70%" height="70%"}
 
   -   **Zero padding shortcuts** : Add channels which have "0" values.
       -   No parameters to be learned.  
   -   **Projection shortcuts** : 1x1 convolution for doubling filter numbers 
       -   There are parameters to be learned.
 
-  **Table 3** summarized validation errors with the above two methods in various combinations  
+  **Table 3** summarizes validation errors with the above two methods in various combinations  
   of **Dimension Increasing Shortcuts and Dimension Staying Shortcuts.**
 
 <br/>
@@ -464,7 +464,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   Compared Plain net and ResNet-34 with A/B/C options.
 
-  [##_Image|kage@dGBuyC/btrRAMqhWAT/KTeLnXrtd5xwCKcCKoSdek/img.png|CDM|1.3|{"originWidth":604,"originHeight":440,"style":"alignCenter"}_##]
+![Table3](/assets/images/ResNet-review/다운로드 (24).png){: width="100%" height="100%"}
 
   -   **Option A**
       -   Dimension Increasing Shortcuts : use Zero padding shortcuts
@@ -497,7 +497,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   Let's look into **the bottom of Table 3.**
 
-  [##_Image|kage@CXrlt/btrRAhqwSBv/JiSy0DkBUD3BuHHP2Rnsm0/img.png|CDM|1.3|{"originWidth":604,"originHeight":440,"style":"alignCenter"}_##]
+![Table3](/assets/images/ResNet-review/다운로드 (25).png){: width="100%" height="100%"}
 
   ResNets with more layers than 34 were also tested.
 
@@ -505,7 +505,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   So, ResNet-50, ResNet-101, ResNet-152 use new building blocks.
 
-  [##_Image|kage@mgwCy/btrRGxkPyWu/k64yMFeWd4sRUvtDA9Loik/img.png|CDM|1.3|{"originWidth":629,"originHeight":341,"style":"alignCenter"}_##]
+![Table3](/assets/images/ResNet-review/다운로드 (26).png){: width="100%" height="100%"}
 
   Looking at the picture on the right side of Figure 5, "bottleneck" building block is shown.
 
@@ -517,7 +517,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   I compared the number of learning parameters because I was curious if the Bottleneck building block was really efficient.
 
-  [##_Image|kage@qkhun/btrRAhxj5or/pPbbjUMr1O2QoIeKYnzpkK/img.png|CDM|1.3|{"originWidth":1283,"originHeight":591,"style":"alignCenter"}_##]
+![Table3](/assets/images/ResNet-review/다운로드 (27).png){: width="100%" height="100%"}
 
   Certainly,  
   the number of parameters of the botleneck building block in the blue box is less than that of the building block in the red box,  
@@ -527,7 +527,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   summarizes the bottom of Table 3  + Table 4 + Table 5 :
 
-  [##_Image|kage@dYjkF4/btrRAipsoRu/a6ib9tfvBcxMriwqbjMKQK/img.png|CDM|1.3|{"originWidth":1192,"originHeight":302,"style":"alignCenter","caption":"Table 3, 4, 5"}_##]
+![Table3](/assets/images/ResNet-review/다운로드 (28).png){: width="100%" height="100%"}
 
   -   the bottom of Table 3
       -   Even extremely deep ResNet learns well.
@@ -555,15 +555,15 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   A figure summarizing the "simple architecture" used for learning CIFAR-10 Dataset is inserted in the paper.
 
-  [##_Image|kage@opjpW/btrRFfdFPay/jYIXLktE7AClYlrVEErmk0/img.png|CDM|1.3|{"originWidth":573,"originHeight":131,"style":"alignCenter","width":450,"height":103,"caption":"Conducted experiments on CIFAR-10 with simple ResNet like the above."}_##]
+![Table3](/assets/images/ResNet-review/다운로드 (29).png){: width="100%" height="100%"}
 
   With the above picture, couldn't have a good grasp, so I draw following table.
 
-  [##_Image|kage@b0kPs1/btrRHCTOgoz/lFg8xZfHBXd583EzhTMUtK/img.png|CDM|1.3|{"originWidth":1470,"originHeight":310,"style":"alignCenter","caption":"Conducted experiments on CIFAR-10 with simple ResNet like the above."}_##]
+![Table3](/assets/images/ResNet-review/다운로드 (30).png){: width="100%" height="100%"}
 
   The result is following.
 
-  [##_Image|kage@1evUW/btrRBe7VJ93/F37SAWKv5u25Bf3JahKwA1/img.png|CDM|1.3|{"originWidth":581,"originHeight":521,"style":"alignCenter"}_##]
+![Table3](/assets/images/ResNet-review/다운로드 (31).png){: width="100%" height="100%"}
 
   **Table 6**
 
