@@ -646,24 +646,25 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 ---
 
-  ### **Figure 7**
+  <span style='background-color:orange; font-size:20pt;'>**Figure 7**
 
-  [##_Image|kage@dzMy9x/btrRAiwe8x9/kw1QLOZCvQ9lGd97S102d1/img.png|CDM|1.3|{"originWidth":967,"originHeight":532,"style":"alignCenter","caption":"Figure 7. Standard deviations (std) of layer responses on CIFAR10. The responses are the outputs of each 3&amp;times;3 layer, after BN and before nonlinearity. Top: the layers are shown in their original order. Bottom: the responses are ranked in descending order."}_##]
+  ![Figure7](/assets/images/ResNet-review/다운로드 (37).png){: width="50%" height="50%"}  
 
-  Figure 7 is a graph of the standard deviation of outputs for each layer according to the layer index.
+  **Figure 7 is a graph of the standard deviation of outputs for each layer** according to the layer index.
 
   Since **ResNet learns residual**, or "the gap between ideal and reality",  
-  the authors say it was expected that there would be **smaller layer responses than Plain-net.**  
+  the authors say it was **expected** that there would be **smaller layer responses than Plain-net.**  
 
   **Figure 7 supports** such expectations.
 
 ---
 
-  ### **Table 7, 8**
+  <span style='background-color:orange; font-size:20pt;'>**Table 7, 8**
 
-  [##_Image|kage@wgfUX/btrRCYXZJWx/WVAFuxATMJugbiakvHw7sK/img.png|CDM|1.3|{"originWidth":952,"originHeight":572,"style":"alignCenter"}_##]
+  ![Table7&8](/assets/images/ResNet-review/다운로드 (38).png){: width="50%" height="50%"}  
 
-  Tables 7 and 8 show the results of experiments with ResNet on the Object Detection task, not the Image Classification task.
+
+  Tables 7 and 8 show the results of experiments with **ResNet on the Object Detection task as well as the Image Classification task.**
 
 ---
 
