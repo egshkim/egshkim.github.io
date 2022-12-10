@@ -221,7 +221,7 @@ The picture in the above is, "Sara".
 
 <br/>
 
-<span style='background-color:orange; font-size:20pt;'>Pre-requistie Before Getting into the body
+<span style='background-color:orange; font-size:20pt;'>Pre-requistie Before Getting into the Heart
 
   Befor we get into the heart of this paper, **There is a thing to point out.**
 
@@ -233,13 +233,12 @@ The picture in the above is, "Sara".
   Let's look at the picture above.
 
   **H is a functuion that print-out output H(x) for input x.**
-
   **"Approximating identity function"** is equal to **"Approximating the function H that makes H(x) = x."**
 
   The problem is that, as mentioned above,  
   it is **not easy** for neural network layers to **approximate the identity function.**
 
-  But <span style='color:red'>**what if layers could approximate H(x) - x instead of H?**</span>
+  But <span style='color:red'>**what if layers could approximate H(x) - x instead of H?**</span>  
   **The gap between ideal and reality, the Residual.**
 
   Suppose "H(x) - x = F(x)".  
@@ -247,13 +246,13 @@ The picture in the above is, "Sara".
 
   Let's change Figure 2 a bit by referring to the picture above.
 
-![Blux box](/assets/images/ResNet-review/다운로드 (13).png){: width="50%" height="50%"}
+![Blux box](/assets/images/ResNet-review/다운로드 (13).png)
 
   **The blue box is a function H that print-out H(x), which is equal to F(x) + x.**
 
   Let's remove the blue box.
 
-![Figure 2](/assets/images/ResNet-review/다운로드 (14).png){: width="30%" height="30%"}
+![Figure 2](/assets/images/ResNet-review/다운로드 (14).png)
 
   The **function F** consists of **"Convolution operation - ReLu activation function operation - Convolution operation".**  
 
