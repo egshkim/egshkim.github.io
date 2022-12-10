@@ -18,12 +18,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
   **Why this paper has so powerful impact ?**
 
   1.  This paper introduced “Skip Connection” for the first time which is being used in the State-of-the-art Deep Learning Models like YOLO, Transformer, U-Net, etc.
-
-<br/>
-
   2.  This paper made “Deep” possible in Deep Learning. It has enabled neural networks to stack extremely deep layers in a very economic way.  
-
-<br/>
 
   From this, it is possible to __estimate   
   how important ResNet is__ in the field of deep learning.
@@ -56,6 +51,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
   So, Let’s get started !
 
 ---
+<br/>
 
   ### **Abstract & The heart of the paper**
 
@@ -71,24 +67,33 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
           
       -   Even **extremely deep ResNet was easy to optimize.**
 
-
+<br/>
 
 ---
+
+<br/>
 
 **The 1st paragraph in Introduction**
 
 ![The First paragraph of Introduction](/assets/images/ResNet-review/다운로드 (2).png)
 
-  -   **Introduces existing perspectives in the field of Deep Learning  
+<br/>
+
+  -   **Introduces existing perspectives in the field of Deep Learning**
       
-      **
-      
-      -   **Existing perspectives :****  
-          "Deepening layers is (always) effective"**
+      -   **Existing perspectives :**  
+          **"Deepening layers is (always) effective"**  
+
+          <br/>
+
+          why people had such perspectives?
+
           -   **The performance of Neural Networks has improved a lot by deepening layers.**
           -   **As the layer is deepened, the level of extracted features can be further enriched.**
           -   **Recent state-of-the-art models on ImageNet have stacked 16~30 layers.**  
               (Quite deep, isnt’ it?)
+
+<br/>
 
 ---
 
