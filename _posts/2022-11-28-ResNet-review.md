@@ -246,19 +246,31 @@ The picture in the above is, "Sara".
 
   Let's change Figure 2 a bit by referring to the picture above.
 
+<br/>
+
 ![Blux box](/assets/images/ResNet-review/다운로드 (13).png)
+
+<br/>
 
   **The blue box is a function H that print-out H(x), which is equal to F(x) + x.**
 
   Let's remove the blue box.
 
+<br/>
+
 ![Figure 2](/assets/images/ResNet-review/다운로드 (14).png)
 
-  The **function F** consists of **"Convolution operation - ReLu activation function operation - Convolution operation".**  
+<br/>
 
-  The **function H** consists of **"Convolution operation - ReLu activation function operation - Convolution operation - An operation of adding Input x to F(x)".**
+  The **function F** consists of  
+  **"Convolution operation - ReLu activation function operation - Convolution operation".**  
 
-  In this case, **"an operation of adding Input x to F(x)"** is just a **"command"** **in which a parameter to be learned does not exist.**
+  The **function H** consists of  
+  **"Convolution operation - ReLu activation function operation - Convolution operation**  
+  <span style='color:red'>**- An operation of adding Input x to F(x)".**</span>
+
+  <span style='color:red'>**"An operation of adding Input x to F(x)"**</span> is just a <span style='color:red'>**"command" to add input x**</span>  
+  **in which** <span style='color:red'>**parameters**</span> **to be learned** <span style='color:red'>**do not exist.**</span>
 
 
   **It's just a "command" to add Input x.**
