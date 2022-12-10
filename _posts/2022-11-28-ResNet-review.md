@@ -122,53 +122,60 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
 <br/>
 
-  -   **"Really, the more layers the models stack, the better the models** <span style='color: red'>**xperform?"**  
+  -   **"Really, the more layers the models stack, the better the models** <span style='color: red'>**perform?"**  
 
       -   **The problem of gradients vanishing  was solved.**
           The models with extremely deep layers, started to learn anyway.
-      -   However, **the Degradation problem was observed.**
+      -   However, <span style='color: red'>**the Degradation problem was observed.**
           
-          -   it was a phenomenon in which **as the depth of the neural network deepened,  
-          the accuracy starts to "saturate".**
+          -   it was a phenomenon in which **as the depth of the neural network deepened,**  
+          <span style='color: red'>**the accuracy starts to "saturate".**
               
           -   Because **the "Training error" increased when network be deepened,  
           it was not due to overfitting.**
 
 <br/>
 
-![Figure 1]("/assets/images/ResNet-review/다운로드 (5).png")
+![Figure 1](/assets/images/ResNet-review/다운로드 (5).png)
 
 <br/>
 
-```
-| ![Figure 1]({{"/assets/images/ResNet-review/다운로드 (5).png"| relative_url}}) | 
-|:--:| 
-| Let's take a look at the left of Figure 1. As the layer be deepened, the training error increased. As shown on the right, the test error also increased. |
-```
-
-<img src="/assets/images/ResNet-review/다운로드 (5).png">  
-<span class="caption">Let's take a look at the left of Figure 1. As the layer be deepened, the training error increased. As shown on the right, the test error also increased.</span>
+Let's take a look at the left of Figure 1.  
+As the layer be deepened, the training error increased.  
+As shown on the right, the test error also increased.
 
 
-  #### **So what on earth is the problem ?**
+  <span style='color: red'>**So what on earth is the problem ?**
 
 ---
 
-  ### **The 4th paragraph in Introduction**
+  <span style='background-color:orange; font-size:20pt;'>**The 4th paragraph in Introduction**
 
-  [##_Image|kage@vHKVP/btrREVl0OM7/eo7OLW1iWUpdVlYpWzxKD0/img.png|CDM|1.3|{"originWidth":670,"originHeight":394,"style":"floatRight","width":500,"height":294}_##]
+<br/>
+
+![4th paragraph of Introduction](/assets/images/ResNet-review/다운로드 (6).png)
+
+<br/>
 
   -   Explains which experiements they have conducted to explore problems.  
       
-      
+<br/>
 
-  [##_Image|kage@bDcdLw/btrRGwTMdae/cUr66vjT6t3ie59tIBU4vK/img.png|CDM|1.3|{"originWidth":816,"originHeight":126,"style":"alignCenter","caption":"Source : https://developer.nvidia.com/discover/artificial-neural-network"}_##]
+![Sara](/assets/images/ResNet-review/다운로드 (7).png)
 
-  **Suppose there are two FCNNs** that have learned that the figure shown in the above is **"Sara"**.
+<br/>
 
-  **One of them has learned Sara** image with the following architecture. 
+The picture shown in the above is, "Sara".
 
-  [##_Image|kage@bCzDKo/btrRCZPVSZX/gKiT9kY9HKv4Vg6eeRgSi0/img.png|CDM|1.3|{"originWidth":1804,"originHeight":464,"style":"alignCenter","caption":"Draw neural network on https://alexlenail.me/NN-SVG/index.html"}_##]
+  **Suppose there are two FCNNs**,  
+  and the **shallower model has learned the image of Sara**  
+  with the following architecture. 
+
+<br/>
+
+![Architectures of two FCNNs](/assets/images/ResNet-review/다운로드 (8).png)
+
+<br/>
 
   Then, **copy the learned neural network and add some layers** to the top (near output layer) .
 
