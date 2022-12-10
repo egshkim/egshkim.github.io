@@ -11,13 +11,13 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   **Why this paper has so powerful impact ?**
 
-  1.  This paper introduced “Skip Connection” for the first time which is being used in the State-of-the-art Deep Learning Models like YOLO, Transformer, U-Net, etc.
-  2.  This paper made “Deep” possible in Deep Learning. It has enabled neural networks to stack extremely deep layers in a very economic way.  
+  1.  This paper introduced “Skip Connection” for the first time which is being used  
+  in the State-of-the-art Deep Learning Models like YOLO, Transformer, U-Net, etc.
+  1.  This paper made “Deep” possible in Deep Learning.  
+  It has enabled neural networks to stack extremely deep layers in a very economic way.  
 
   From this, it is possible to __estimate   
   how important ResNet is__ in the field of deep learning.
-
-<br/>
 
   This review assumes that the reader understands basic FCNN and CNN.
 
@@ -33,8 +33,6 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   [https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
 
-<br/>
-
   I review every paragraphs in Abstract and Introduction  
   because every paragraph is important.
 
@@ -45,32 +43,22 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
   So, Let’s get started !
 
 ---
-<br/>
-
-  ### Abstract & The heart of the paper
-
-<br/>
+  ## Abstract & The heart of the paper
 
   -   **Observed a problem : Degradation Problem.**  
       -   When layers be stacked extremely deep, Accuracy decreased.
 
-<br/>          
-      
   -   **The solution** this paper suggests : **ResNet**
       -   When **ResNet** stacks extremely **deep layers, it learns well.**  
           
       -   Even **extremely deep ResNet was easy to optimize.**
 
-<br/>
-
 ---
 
+**<span style='background-color: orange'>The 1st paragraph in Introduction**
+
 <br/>
-
-**The 1st paragraph in Introduction**
-
 ![The First paragraph of Introduction](/assets/images/ResNet-review/다운로드 (2).png)
-
 <br/>
 
   -   **Introduces existing perspectives in the field of Deep Learning**
@@ -86,55 +74,56 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
           -   **As the layer is deepened, the level of extracted features can be further enriched.**
           -   **Recent state-of-the-art models on ImageNet have stacked 16~30 layers.**  
               (Quite deep, isnt’ it?)
+---
+  **<span style='background-color: orange'>The 2nd paragraph in Introduction**
 
 <br/>
-
----
-
-  ### **The 2nd paragraph in Introduction**
-
 ![The Second paragraph of Introduction](/assets/images/ResNet-review/다운로드 (3).png)
+<br/>
 
   -   Some people asked a question.  
-      **"Really, the more layers the models stack, the better the models learn?"  
-      **  
-      **No. It didn't.  
-      
-      **
-  -   It's called "Gradient Vanishing problem".  
+      **"Really, the more layers the models stack, the better the models <span style='color: red'>learn?"**  
+
+      **No. It didn't.**
+
+  -   It's called **"Gradient Vanishing problem".**  
       But this problem has been solved recently.  
-      -   The weight initial value has been initialized as a normal distribution with a mean of 0 and a standard deviation of 1.
+      -   The weight initial value has been initialized as a normal distribution  
+      with a mean of 0 and a standard deviation of 1.
       -   It was observed that when initialized in this way, the output value of the activation function mainly exists at both ends of 0 and 1.
       -   When the output value of the activation function is at the extremes of 0 and 1, the differential value of the activation function approaches 0.  
           (Let's look at the differential values of the sigmoid function : output \* (1-output) )
       -   Then, as the layer is deeper, the back propagation value converges to zero. The gradients vanish.
       -   In other words, learning is not achieved at all.  
           
-      
-  -   Somehow, it is solved.
-      -   Xavier Glorot and Yoshua Bengio suggested Normalized Initialization to solve this.
+  -   **Somehow, it is solved.**
+      -   Xavier Glorot and Yoshua Bengio suggested **Normalized Initialization** to solve this.
           -   Convolution layers in Tensorflow API used the uniform initiaization method in this paper as "default" initialization method.
 
-  **However.. We faced another problem.**
+  **<span style='color: red'>However.. People faced another problem.**
 
 ---
+**<span style='background-color: orange'>The 3rd paragraph in Introduction**
 
-  ### **The 3rd paragraph in Introduction**
-
+<br/>
 ![The Third paragraph of Introduction](/assets/images/ResNet-review/다운로드 (4).png)
+<br/>
 
-  -   ****"Really, the more layers the models stack, the better the models perform?"**  
-      
-      **
-      -   The problem of gradients vanishing  was solved.  
+  -   **"Really, the more layers the models stack, the better the models <span style='color: red'>perform?"**  
+
+      -   **The problem of gradients vanishing  was solved.**
           The models with extremely deep layers, started to learn anyway.
-      -   However, the Degradation problem was observed.  
+      -   However, **the Degradation problem was observed.**
           
-          -   it was a phenomenon in which as the depth of the neural network deepened, the accuracy starts to "saturate".  
+          -   it was a phenomenon in which **as the depth of the neural network deepened,  
+          the accuracy starts to "saturate".**
               
-          -   Because the "Training error" increased when network be deepened, it was not due to overfitting.
+          -   Because **the "Training error" increased when network be deepened,  
+          it was not due to overfitting.**
 
+<br/>
 ![Figure 1](/assets/images/ResNet-review/다운로드 (5).png) 
+<br/>
 
 ```
 | ![Figure 1]({{"/assets/images/ResNet-review/다운로드 (5).png"| relative_url}}) | 
