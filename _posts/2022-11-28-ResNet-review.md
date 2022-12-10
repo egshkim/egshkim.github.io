@@ -269,7 +269,8 @@ The picture in the above is, "Sara".
   **"Convolution operation - ReLu activation function operation - Convolution operation**  
   <span style='color:red'>**- An operation of adding Input x to F(x)".**</span>
 
-  <span style='color:red'>**"An operation of adding Input x to F(x)"**</span> is just a <span style='color:red'>**"command" to add input x**</span>  
+  <span style='color:red'>**"An operation of adding Input x to F(x)"**</span> is just a  
+  <span style='color:red'>**"command" to add input x**</span>  
   **in which** <span style='color:red'>**parameters**</span> **to be learned** <span style='color:red'>**do not exist.**</span>
 
 
