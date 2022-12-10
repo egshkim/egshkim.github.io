@@ -628,7 +628,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 **The following comprehensive conclusions can be drawn.**
 
-  <span style='color:red; font-size:14pt;'>_**"ResNet has overcome the optimization difficulity. Accuracy increased when depth increased."**_
+  <span style='color:red; font-size:13pt;'>_**"ResNet has overcome the optimization difficulity. Accuracy increased when depth increased."**_
 
 ![the right of Figure6](/assets/images/ResNet-review/다운로드 (36).png){: width="100%" height="100%"}  
 
