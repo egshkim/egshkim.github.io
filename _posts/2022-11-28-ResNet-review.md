@@ -248,7 +248,7 @@ The picture in the above is, "Sara".
 
 <br/>
 
-![Blux box](/assets/images/ResNet-review/다운로드 (13).png)
+![Blux box](/assets/images/ResNet-review/다운로드 (13).png){: width="80%" height="80%"}
 
 <br/>
 
@@ -273,11 +273,9 @@ The picture in the above is, "Sara".
   **in which** <span style='color:red'>**parameters**</span> **to be learned** <span style='color:red'>**do not exist.**</span>
 
 
-  **It's just a "command" to add Input x.**
+  **This achieves three.**
 
-  **This can achieve three.**
-
-  **1.** When updating parameters, we learn function F, not function H.  
+  1. When updating parameters, we learn function F, not function H.  
 
   This is because, at "H = F(x) \+ x", "\+ x" has no parameter to learn.  
 
@@ -285,7 +283,7 @@ The picture in the above is, "Sara".
 
   **Without additional parameters to be learned, Residual,** the gap between ideal and reality, **is learned.**
 
-  **2.** It becomes easier for function H to approximate the Identity Function.  
+  2. It becomes easier for function H to approximate the Identity Function.  
   Since the function H = F(x) + x, if F(x) becomes 0, then H = 0 + x = x and H(x) = x.
 
   That is, **if** function **F approximates Zero Function,** function **H become Identity Function.**
@@ -295,7 +293,7 @@ The picture in the above is, "Sara".
 
   In addition, Zero Function is easy to approximate because the weights flowing through the deep neural network have the property of approaching zero.
 
-  **3.** Because there are no additional parameters to learn,  
+  3. Because there are no additional parameters to learn,  
   A fair comparison between  
   **"Plain Networks" without Residual Connections**  
   **"Residual Networks" with Residual Connections**  
