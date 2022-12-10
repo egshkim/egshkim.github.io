@@ -460,7 +460,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 ---
 
-  Let's look into the **middle part of Table 3.**
+  <span style='background-color:orange; font-size:20pt;'>Let's look into the **middle part of Table 3.**
 
   Compared Plain net and ResNet-34 with A/B/C options.
 
@@ -483,9 +483,10 @@ In this plot, the residual networks have no extra parameter compared to their pl
       -   Dimension Staying Shortcuts : use projection shortcuts
       -   → All Shortcuts introduce parameters to be learned.
 
-  ****summarize** the middle part of Table 3 :**
+<span style='background-color:orange; font-size:16pt;'>Summary:</span>
 
   -   **With any options, Better performance than plain-34.**
+
   -   With B option is better than with  A.  
       **Because, with option A, residual learning isn't achieved in **zero padded channels.****  
       
@@ -495,7 +496,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 ---
 
-  Let's look into **the bottom of Table 3.**
+  <span style='background-color:orange; font-size:20pt;'>Let's look into **the bottom of Table 3.**
 
 ![Table3](/assets/images/ResNet-review/다운로드 (25).png){: width="100%" height="100%"}
 
