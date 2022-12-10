@@ -310,7 +310,7 @@ The picture in the above is, "Sara".
       -   So, these **results are not only for a certain dataset.**  
             
   -   With 152 layers of incredible depth, **ResNet is the deepest ever**, but **fewer parameters to learn** than VGG net.
-      -   Thans to Shortcut Connections  
+      -   Thanks to Shortcut Connections  
           
   -   ResNet has won the following competitions.
       
@@ -336,7 +336,7 @@ The picture in the above is, "Sara".
           
           *The time complexity of an algorithm is the number of basic operations, such as multiplications and summations, that the algorithm performs.*
 
-  -   <span style='color:red'>Residual Network</span> \= Plain Network + <span style='color:blue'>Shortcuts</span>
+  -   <span style='color:red'>**Residual Network**</span> **\= Plain Network +** <span style='color:blue'>**Shortcuts**</span>
       -   Dimension Staying Shortcuts : Identity Shortcuts
       -   Dimension Increasing Shortcuts
 
@@ -352,14 +352,14 @@ The picture in the above is, "Sara".
 
   <span style='background-color:orange; font-size:20pt;'>**Table 1**
 
-  ![Table1](/assets/images/ResNet-review/다운로드 (17).png){: width="70%" height="70%"}
+  ![Table1](/assets/images/ResNet-review/다운로드 (17).png){: width="100%" height="7\100%"}
 
   **Table 1** summarizes the **architectures** of ResNet models used in experiments on ImageNet Dataset **according to layer depth.**
   
   Building blocks are shown in brackets (see also Fig. 5), with the numbers of blocks stacked.  
   Downsampling is performed by conv3 1, conv4 1, and conv5 1 with a stride of 2.
 
-  When entering every convX\_x layer, dimension be downsampled by stride 2 convolution.
+  When entering every convX\_x layer, dimension be downsampled by stride 2 convolution.  
   (Refer to the architecture of the 34-layer residual in Figure 3.)
 
   However, if you look closely at Table 1, there is something strange.  
@@ -370,17 +370,17 @@ The picture in the above is, "Sara".
 
   ![PytorchFigure](/assets/images/ResNet-review/다운로드 (18).png){: width="100%" height="100%"}
 
-  Modified Table 1 with padding times information.
+  So I have modified Table 1 with padding times information.
 
   ![ModifiedTable](/assets/images/ResNet-review/다운로드 (19).png){: width="100%" height="100%"}
 
 ---
 
-  ### **Table 2**
+  <span style='background-color:orange; font-size:20pt;'>**Table 2**
+
+![Table2](/assets/images/ResNet-review/다운로드 (20).png){: width="100%" height="100%"}
 
   **Table 2** summarizes **validation error** after learning **ImageNet 2012 Classification Dataset.**
-
-  [##_Image|kage@Fb81V/btrRCZbuMcr/Q5zr8fHXQShfS896SriFTk/img.png|CDM|1.3|{"originWidth":499,"originHeight":251,"style":"floatRight"}_##]
 
   -   ImageNet 2012 Classification Dataset
       -   1,000 classes
