@@ -10,19 +10,15 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   
 
-  ```html
-  <img src="/assets/images/ResNet-review/다운로드.png" width="90%" height="90%" title="Cited times"/> 
-  ```
-
   ![Cited times](/assets/images/ResNet-review/다운로드.png)
 
   
-  
+
   **Why this paper has so powerful impact ?**
-  
+
   1.  This paper introduced “Skip Connection” for the first time which is used in State-of-the-art Deep Learning Models like YOLO, Transformer, U-Net, etc.
   2.  This paper made “Deep” possible in Deep Learning. It has enabled neural networks to stack extremely deep layers in a very economic way.
-  
+
   From this, it is possible to estimate how important ResNet is in the field of deep learning.
 
 
@@ -50,6 +46,8 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
 ---
 
+
+
   ### **Abstract & The heart of the paper**
 
   -   **Observed a problem : Degradation Problem.**  
@@ -61,15 +59,18 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
           
       -   Even **extremely deep ResNet are easy to optimize.**
 
+
+
 ---
 
-  [##_Image|kage@vSDGw/btrRCYQ41qc/DA1PpVxn41rCGMpUlHSOvK/img.png|CDM|1.3|{"originWidth":686,"originHeight":458,"style":"floatRight","width":450,"height":300}_##]
+**The 1st paragraph in Introduction**
 
-  ### **The 1st paragraph in Introduction**
+![The First paragraph of Introduction](/assets/images/ResNet-review/다운로드 (2).png)
 
   -   **Introduces existing perspectives in the field of Deep Learning  
       
       **
+      
       -   **Existing perspectives :****  
           "Deepening layers is (always) effective"**
           -   **The performance of Neural Networks has improved a lot by deepening layers.**
@@ -79,9 +80,9 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
 ---
 
-  [##_Image|kage@lstQq/btrRAiQAmtx/90Z829dDtmTRMOESuRBuk0/img.png|CDM|1.3|{"originWidth":844,"originHeight":422,"style":"floatRight","width":450,"height":225}_##]
-
   ### **The 2nd paragraph in Introduction**
+
+![The Second paragraph of Introduction](/assets/images/ResNet-review/다운로드 (3).png)
 
   -   Some people asked a question.  
       **"Really, the more layers the models stack, the better the models learn?"  
@@ -109,7 +110,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   ### **The 3rd paragraph in Introduction**
 
-  [##_Image|kage@bICmZW/btrREWysahI/616SfZF9AX34fw1qhturn0/img.png|CDM|1.3|{"originWidth":772,"originHeight":308,"style":"floatRight","width":450,"height":180}_##]
+![The Third paragraph of Introduction](/assets/images/ResNet-review/다운로드 (4).png)
 
   -   ****"Really, the more layers the models stack, the better the models perform?"**  
       
@@ -122,7 +123,15 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
               
           -   Because the "Training error" increased when network be deepened, it was not due to overfitting.
 
-  [##_Image|kage@VVKcp/btrRFfY2G2F/1Zh6uoDUozGkEf2sRTuhck/img.png|CDM|1.3|{"originWidth":1098,"originHeight":430,"style":"alignCenter","width":500,"height":196,"caption":"Let's take a look at the left of Figure 1. As the layer be deepened, the training error increased. As shown on the right, the test error also increased."}_##]
+![Figure 1](/assets/images/ResNet-review/다운로드 (5).png) 
+
+```
+| ![Figure 1]({{"/assets/images/ResNet-review/다운로드 (5).png"| relative_url}}) | 
+|:--:| 
+| Let's take a look at the left of Figure 1. As the layer be deepened, the training error increased. As shown on the right, the test error also increased. |
+```
+
+{"originWidth":1098,"originHeight":430,"style":"alignCenter","width":500,"height":196,"caption":"Let's take a look at the left of Figure 1. As the layer be deepened, the training error increased. As shown on the right, the test error also increased."}_##]
 
   #### **So what on earth is the problem ?**
 
