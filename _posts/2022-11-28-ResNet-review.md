@@ -222,31 +222,32 @@ The picture in the above is, "Sara".
 
 <span style='background-color:orange; font-size:20pt;'>Pre-requistie Before Getting into the body
 
-  Befor we get into the heart of this paper, **There is something to point out.**
+  Befor we get into the heart of this paper, **There is a thing to point out.**
 
-  It's the definition of a **function**.
+  The definition of a **function**.
 
   Function is an expression, rule, or law that defines a relationship between one variable and another variable.
 
   For a certain input, function must print output in a consistent way.
 
-  [##_Image|kage@s0ztW/btrRDYQMLl0/2shuVPMx3x2wodv3Pi2w6k/img.png|CDM|1.3|{"originWidth":340,"originHeight":306,"style":"alignCenter"}_##]
+![Function](/assets/images/ResNet-review/다운로드 (12).png){: width="50%" height="50%"}
 
   Let's look at the picture above.
 
-  There is a function H that print Output H(x) for Input X.
+  There is a function **H that print output H(x) for input X.**
 
-  If the output of this function "H(x)" is equal to "x", then we can say the function H is the Identity Function.
+  **When the output "H(x)" is equal to "x"**,  
+  we can say the function **H is an identity function.**
 
-  **"Approximating Identity function"** is equal to **"Approximating the function H that makes H(x) = x."**
+  **"Approximating identity function"** is equal to **"Approximating the function H that makes H(x) = x."**
 
-  The problem is that, as mentioned above, it is not easy for neural network layers to approximate the Identity Function.
+  The problem is that, as mentioned above, it is /**not easy** for neural network layers to **approximate the identity function.**
 
-  But what if we could learn H(x) - x instead of H?
+  But <span style='color:red'>**what if we could learn H(x) - x instead of H?**</span>
 
-  (Let's H(x) - x = F(x) ).
+  Suppose "H(x) - x = F(x)".
 
-  Instead of learning "Ideal" H(x), The models learn "the gap between ideal and reality" H(x)-x, Residual.
+  Instead of learning "Ideal" H(x), The models learn **"the gap between ideal and reality"** H(x)-x, **Residual.**
 
   Let's change Figure 2 a little by referring to the picture above.
 
