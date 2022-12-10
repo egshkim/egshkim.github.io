@@ -1,3 +1,9 @@
+---
+published: true
+layout: post
+title:  "[Trial][English] [Paper Review] Deep Residual Learning for Image Recognition (ResNet)"
+---
+
 <p data-ke-size="size16">This paper has been written by Kaming He in 2015 and citated about &ldquo;140,000&rdquo; times.</p>
 <p data-ke-size="size16">&nbsp;</p>
 <p data-ke-size="size16">Pasted 7 years but still has powerful impacts.</p>
