@@ -10,15 +10,17 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   
 
-  ![다운로드](https://github.com/egshkim/egshkim.github.io/blob/master/images/ResNet-review/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png)
+  ```html
+  <img src="/assets/images/8.png" width="90%" height="90%" title="Cited times"/> 
+  ```
 
   
 
   **Why this paper has so powerful impact ?**
-
+  
   1.  This paper introduced “Skip Connection” for the first time which is used in State-of-the-art Deep Learning Models like YOLO, Transformer, U-Net, etc.
   2.  This paper made “Deep” possible in Deep Learning. It has enabled neural networks to stack extremely deep layers in a very economic way.
-
+  
   From this, it is possible to estimate how important ResNet is in the field of deep learning.
 
 
