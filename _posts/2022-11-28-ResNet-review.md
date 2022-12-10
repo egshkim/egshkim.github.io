@@ -648,7 +648,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   <span style='background-color:orange; font-size:20pt;'>**Figure 7**
 
-  ![Figure7](/assets/images/ResNet-review/다운로드 (37).png){: width="50%" height="50%"}  
+  ![Figure7](/assets/images/ResNet-review/다운로드 (37).png){: width="70%" height="70%"}  
 
   **Figure 7 is a graph of the standard deviation of outputs for each layer** according to the layer index.
 
@@ -661,7 +661,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   <span style='background-color:orange; font-size:20pt;'>**Table 7, 8**
 
-  ![Table7&8](/assets/images/ResNet-review/다운로드 (38).png){: width="50%" height="50%"}  
+  ![Table7&8](/assets/images/ResNet-review/다운로드 (38).png){: width="70%" height="70%"}  
 
 
   Tables 7 and 8 show the results of experiments with **ResNet on the Object Detection task as well as the Image Classification task.**
