@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (ResNet)"
+title:  "[Paper Review] Deep Residual Learning for Image Recognition (ResNet)"
 ---
   This paper is written by Kaming He in 2015 and cited about “140,000” times.
 
