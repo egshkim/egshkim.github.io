@@ -325,53 +325,54 @@ The picture in the above is, "Sara".
 
   <span style='background-color:orange; font-size:20pt;'>**Figure 3**
 
+  ![Figure3](/assets/images/ResNet-review/다운로드 (16).png){: width="70%" height="70%"}
+
   **Figure 3** visualizes **the network architectures** used in the experiment at a glance.
 
-  ![Figure3](/assets/images/ResNet-review/다운로드 (16).png){: width="50%" height="50%"}
-
-  -   Plain Network
+  -   <span style='color:red'>**Plain Network**
       -   If the feature map size has been halved,  
           The number of filters should be doubled to preserve the "time complexity" of each layer.   
           (Inspired by VGG philosophy)  
           
-          The time complexity of an algorithm is the number of basic operations, such as multiplications and summations, that the algorithm performs.
+          *The time complexity of an algorithm is the number of basic operations, such as multiplications and summations, that the algorithm performs.*
 
-  -   Residual Network \= Plain Network + Shortcuts
+  -   <span style='color:red'>Residual Network</span> \= Plain Network + <span style='color:blue'>Shortcuts</span>
       -   Dimension Staying Shortcuts : Identity Shortcuts
       -   Dimension Increasing Shortcuts
-          -   When convolve with stride of 2, Height and Width decreased,  
-              Channel numbers increased.  
+
+          -   When convolve with stride of 2, Height and Width decreased, Channel numbers increased.  
               
-          -   For operations of F(x) + x,  
-              F(x) and x should have same dimensions.  
-              → Adjust the dimensions to be identical.  
+          -   For **operations of F(x) + x, F(x) and x should have same dimensions.**  
+              → Adjust the dimensions to be identical. There are 2 ways.
               
               -   Zero padding shortcuts
               -   Projection shortcuts
 
 ---
 
-  ### **Table 1**
+  <span style='background-color:orange; font-size:20pt;'>**Table 1**
+
+  ![Table1](/assets/images/ResNet-review/다운로드 (17).png){: width="70%" height="70%"}
 
   **Table 1** summarizes the **architectures** of ResNet models used in experiments on ImageNet Dataset **according to layer depth.**
-
-  [##_Image|kage@brUTVV/btrREWd9nYm/5vcbWpcOXGsKwWbU5kCGfK/img.png|CDM|1.3|{"originWidth":944,"originHeight":412,"style":"alignCenter","caption":"Table 1. Architectures for ImageNet. Building blocks are shown in brackets (see also Fig. 5), with the numbers of blocks stacked. Downsampling is performed by conv3 1, conv4 1, and conv5 1 with a stride of 2."}_##]
+  
+  Building blocks are shown in brackets (see also Fig. 5), with the numbers of blocks stacked.  
+  Downsampling is performed by conv3 1, conv4 1, and conv5 1 with a stride of 2.
 
   When entering every convX\_x layer, dimension be downsampled by stride 2 convolution.
-
   (Refer to the architecture of the 34-layer residual in Figure 3.)
 
   However, if you look closely at Table 1, there is something strange.  
 
-  Whether conv2\_x or conv3\_x, output size is maintained in the convolution operation.  
+  All "output size" are maintained during the convolution operations.
 
   Looking at the Pytorch source code, as expected, there was an appropriate number of padding per convolution layer.
 
-  [##_Image|kage@s4MIq/btrRA9yHl9S/L6e29FEVni4UmGMyVP0f90/img.png|CDM|1.3|{"originWidth":614,"originHeight":298,"style":"alignCenter","caption":"looking into the source code of ResNet in Pytorch, padding is performed once in 3x3 convolution within a block."}_##]
+  ![PytorchFigure](/assets/images/ResNet-review/다운로드 (18).png){: width="100%" height="100%"}
 
   Modified Table 1 with padding times information.
 
-  [##_Image|kage@dsGCtZ/btrREV7zrbr/Nk0cu2Y4ih1q3bfLjECNr0/img.png|CDM|1.3|{"originWidth":688,"originHeight":315,"style":"alignCenter","caption":"Modified Table 1 with padding times information."}_##]
+  ![ModifiedTable](/assets/images/ResNet-review/다운로드 (19).png){: width="100%" height="100%"}
 
 ---
 
