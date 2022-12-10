@@ -131,7 +131,9 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 | Let's take a look at the left of Figure 1. As the layer be deepened, the training error increased. As shown on the right, the test error also increased. |
 ```
 
-{"originWidth":1098,"originHeight":430,"style":"alignCenter","width":500,"height":196,"caption":"Let's take a look at the left of Figure 1. As the layer be deepened, the training error increased. As shown on the right, the test error also increased."}_##]
+<img src="/assets/images/ResNet-review/다운로드 (5).png">  
+<span class="caption">Let's take a look at the left of Figure 1. As the layer be deepened, the training error increased. As shown on the right, the test error also increased.</span>
+
 
   #### **So what on earth is the problem ?**
 
