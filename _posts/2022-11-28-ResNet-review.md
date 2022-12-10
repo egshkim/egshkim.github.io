@@ -569,25 +569,22 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   <span style = 'background-color:orange; font-size:20;'>**Table 6**
 
-![Table3](/assets/images/ResNet-review/다운로드 (31).png){: width="40%" height="40%"}
-
+![Table3](/assets/images/ResNet-review/다운로드 (31).png){: width="60%" height="60%"}
 
   -   ResNet has beaten FitNet and Highway, the existing best Classification models
   -   **ResNet performs better with much fewer parameters.**
 
-  Q. By the way, Table 6 shows data augmentation be conducted.
-
+  *Q. By the way, Table 6 shows data augmentation be conducted.
   FitNet and Highway was learned with data augmentation, as well ?
-
-  → Reviewing those models' papers, It was. However, augmentation mothods differ.
-
----
-
-  ### **Figure 6**
+  → Reviewing those models' papers, It was. However, augmentation mothods differ.*
 
 ---
+
+  <span style = 'background-color:orange; font-size:20;'>**Figure 6**
 
   Let's look into the left of Figure 6.
+
+![Figure6](/assets/images/ResNet-review/다운로드 (32).png){: width="100%" height="100%"}
 
   [##_Image|kage@lkWrh/btrRGv8qSuw/fpvvk29rBfLcpmKkalimSk/img.png|CDM|1.3|{"originWidth":1820,"originHeight":488,"style":"alignCenter","caption":"Figure 6. Training on CIFAR-10. Dashed lines denote training error, and bold lines denote testing error. Left: plain networks. The error of plain-110 is higher than 60% and not displayed. Middle: ResNets. Right: ResNets with 110 and 1202 layers."}_##]
 
