@@ -192,7 +192,7 @@ The picture in the above is, "Sara".
   **the weights flowing through the deep neural network have the property of approaching "0".**)*
 
 
-  How can we reduce the difficulty of optimization?
+  <span style = "color:red">**How can we reduce the difficulty of optimization?**</span>
 
 ---
 
