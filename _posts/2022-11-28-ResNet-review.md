@@ -146,8 +146,9 @@ Let's take a look at the left of Figure 1.
 
 <span style='background-color:orange; font-size:16pt;'>**Summary:**
   -   Explains which experiements they have conducted to explore problems.  
-      
-<br/>
+
+
+they conducted experients in this way.
 
 ![Sara](/assets/images/ResNet-review/다운로드 (7).png)
 
