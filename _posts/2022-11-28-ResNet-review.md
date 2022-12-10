@@ -59,9 +59,9 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
 <span style='background-color:orange; font-size:20pt;'>**The 1st paragraph in Introduction**
 
-![The First paragraph of Introduction](/assets/images/ResNet-review/다운로드 (2).png)
+![The First paragraph of Introduction](/assets/images/ResNet-review/다운로드 (2).png){: width="50%" height="50%"}
 
-Summary:
+<span style='background-color:orange; font-size:16pt;'>**Summary:**
   -   **Introduces existing perspectives in the field of Deep Learning**
       
       -   **Existing perspectives :**  
@@ -84,7 +84,7 @@ Summary:
 
 ![The Second paragraph of Introduction](/assets/images/ResNet-review/다운로드 (3).png)
 
-Summary:
+<span style='background-color:orange; font-size:16pt;'>**Summary:**
   -   Some people asked a question.  
       **"Really, the more layers the models stack, the better the models** <span style='color: red'>**learn?"**  
 
@@ -112,7 +112,7 @@ Summary:
 
 ![The Third paragraph of Introduction](/assets/images/ResNet-review/다운로드 (4).png)
 
-Summary:
+<span style='background-color:orange; font-size:16pt;'>**Summary:**
   -   **"Really, the more layers the models stack, the better the models** <span style='color: red'>**perform?"**  
 
       -   **The problem of gradients vanishing  was solved.**
@@ -144,7 +144,7 @@ Let's take a look at the left of Figure 1.
 
 ![4th paragraph of Introduction](/assets/images/ResNet-review/다운로드 (6).png)
 
-Summary:
+<span style='background-color:orange; font-size:16pt;'>**Summary:**
   -   Explains which experiements they have conducted to explore problems.  
       
 <br/>
