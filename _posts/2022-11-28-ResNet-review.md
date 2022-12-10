@@ -378,7 +378,7 @@ The picture in the above is, "Sara".
 
   <span style='background-color:orange; font-size:20pt;'>**Table 2**
 
-![Table2](/assets/images/ResNet-review/다운로드 (20).png){: width="100%" height="100%"}
+![Table2](/assets/images/ResNet-review/다운로드 (20).png){: width="50%" height="50%"}
 
   **Table 2** summarizes **validation error** after learning **ImageNet 2012 Classification Dataset.**
 
@@ -386,9 +386,10 @@ The picture in the above is, "Sara".
       -   1,000 classes
       -   128 millions Training set
       -   5 millions Validation set  
-  -   **Results**
-      -   **the deeper the Plain net,** the higher the error
-      -   **the deeper the ResNet, the lower the error**
+
+<span style='background-color:orange; font-size:16pt;'>**Summary:**
+  -   **the deeper the Plain net,** the higher the error
+  -   **the deeper the ResNet, the lower the error**
 
 ---
 
@@ -399,10 +400,10 @@ The picture in the above is, "Sara".
 ![Figure4](/assets/images/ResNet-review/다운로드 (21).png){: width="100%" height="100%"}
 
 
-Thin curves denote training error, and bold curves denote validation error of the center crops.  
-Left: plain networks of 18 and 34 layers.  
-Right: ResNets of 18 and 34 layers.  
+Thin curves denote training error, and bold curves denote validation error of the center crops.   
 In this plot, the residual networks have no extra parameter compared to their plain counterparts.
+
+<span style='background-color:orange; font-size:16pt;'>**Summary:**
 
   -   The authors suggests that the error increase when deepening the Plain net is not due to gradients vanishing.  
       
