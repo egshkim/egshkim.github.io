@@ -414,7 +414,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   Let's summarize Table 2 and Figure 4.
 
-  [##_Image|kage@bKRaR5/btrRACVEdGx/G2rhyKAWL0jzR4inyb0os0/img.png|CDM|1.3|{"originWidth":1368,"originHeight":367,"style":"alignCenter"}_##]
+![Table2&Figure4](/assets/images/ResNet-review/다운로드 (22).png){: width="100%" height="100%"}
 
   -   **Degradation problem** can be solved with **Residual Learning**.
       -   **When ResNet be deepened**, **Training error and** **Validation error decreased.**  
