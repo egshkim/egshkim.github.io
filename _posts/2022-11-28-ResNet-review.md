@@ -82,7 +82,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   <span style='background-color:orange; font-size:20pt;'>**The 2nd paragraph in Introduction**
 
-![The Second paragraph of Introduction](/assets/images/ResNet-review/다운로드 (3).png)
+![The Second paragraph of Introduction](/assets/images/ResNet-review/다운로드 (3).png){: width="50%" height="50%"}
 
 <span style='background-color:orange; font-size:16pt;'>**Summary:**
   -   Some people asked a question.  
@@ -110,7 +110,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
 <span style='background-color:orange; font-size:20pt;'>**The 3rd paragraph in Introduction**
 
-![The Third paragraph of Introduction](/assets/images/ResNet-review/다운로드 (4).png)
+![The Third paragraph of Introduction](/assets/images/ResNet-review/다운로드 (4).png){: width="50%" height="50%"}
 
 <span style='background-color:orange; font-size:16pt;'>**Summary:**
   -   **"Really, the more layers the models stack, the better the models** <span style='color: red'>**perform?"**  
@@ -127,7 +127,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
 <br/>
 
-![Figure 1](/assets/images/ResNet-review/다운로드 (5).png)
+![Figure 1](/assets/images/ResNet-review/다운로드 (5).png){: width="50%" height="50%"}
 
 <br/>
 
@@ -142,7 +142,7 @@ Let's take a look at the left of Figure 1.
   <span style='background-color:orange; font-size:20pt;'>**The 4th paragraph in Introduction**
 
 
-![4th paragraph of Introduction](/assets/images/ResNet-review/다운로드 (6).png)
+![4th paragraph of Introduction](/assets/images/ResNet-review/다운로드 (6).png){: width="50%" height="50%"}
 
 <span style='background-color:orange; font-size:16pt;'>**Summary:**
   -   Explains which experiements they have conducted to explore problems.  
@@ -169,50 +169,48 @@ The picture in the above is, "Sara".
 
 ![Architecture of the deeper model](/assets/images/ResNet-review/다운로드 (9).png)
 
-  Ideally, it would be nice if each added layer works as identity mapping.  
-  *(Identity mapping : A layer that should approximate Identity Function.)*
+  Ideally, **it would be very nice  
+  if each added layer was optimized as a layer that approximates identity function  
+  so that the "Deeper" network still be able to correctly infer Sara.**
 
-  In other words,  
-  **it would be very nice if each added layer was optimized as a layer that approximates the identity function.**
-
-  **If so, this "Deeper" neural network will still be able to correctly infer Sara.**
-
-  If the added layers successfully approximated the identity function,
-
-  The **"Deeper" neural network should perform better, or at least simillar  
+  Then, the **"Deeper" neural network should perform better, or at least simillar  
   than the "Shallower"** neural network.
 
-  However, **the results showed "Deeper" network performed worse.**
+  However, **the results show the "Deeper" network performed worse.**
 
-  [##_Image|kage@VVKcp/btrRFfY2G2F/1Zh6uoDUozGkEf2sRTuhck/img.png|CDM|1.3|{"originWidth":1098,"originHeight":430,"style":"alignCenter","width":500,"height":196,"caption":"Let's take a look at the left of Figure 1. As the layer be deepened, the training error increased. As shown on the right, the test error also increased."}_##]
+![Figure 1](/assets/images/ResNet-review/다운로드 (5).png){: width="50%" height="50%"}
 
-  Therefore, this is a problem with the difficulty of optimization of deep neural networks.
+  Therefore, The authors say it is a very fundamental problem of  
+  the optimization difficulty of deep neural networks.
 
-  **It is a very fundamental problem.**  
-  It's not just a matter of overfitting.
+  Not just a matter of overfitting.
 
-  (In fact, it is not easy for neural network layers to approximate the Identity Function.  
-
-  Perhaps, the added layers might approximate Zero Function rather than the identity function.  
-
-  This is because, In the first place, the weights flowing through the deep neural network have the property of approaching "0".)  
+  *(In fact, it is not easy for neural network layers to approximate the Identity Function.  
+  Perhaps, **the added layers might approximate Zero Function** rather than the identity function.  
+  This is because, In the first place, **the weights flowing through the deep neural network have the property of approaching "0".**)*
 
 
-  So, how can we reduce the difficulty of optimization?
+  How can we reduce the difficulty of optimization?
 
 ---
 
-  ### **The 5th paragraph in Introduction**
+  <span style='background-color:orange; font-size:20pt;'>**The 5th paragraph in Introduction**
 
-  [##_Image|kage@bLvM2E/btrRDVT6HZ7/j0uK6LKoe4D2y9FUp6T8B0/img.png|CDM|1.3|{"originWidth":616,"originHeight":396,"style":"floatRight","width":450,"height":289}_##]
+
+![5th paragraph of Introduction](/assets/images/ResNet-review/다운로드 (10).png){: width="50%" height="50%"}
+
+<span style='background-color:orange; font-size:16pt;'>**Summary:**
 
   -   Suggest ways to reduce the difficulty of optimization  
       -   Residual Mapping
 
-  ### **The 6th paragraph In Introduction**
 
-  [##_Image|kage@4a8P3/btrRGkMEn6N/cM3f4YCkGprjbebX7gl6a0/img.png|CDM|1.3|{"originWidth":578,"originHeight":312,"style":"floatRight","width":450,"height":243}_##]
+  <span style='background-color:orange; font-size:20pt;'>**The 6th paragraph in Introduction**
 
+
+![6th paragraph of Introduction](/assets/images/ResNet-review/다운로드 (11).png){: width="50%" height="50%"}
+
+<span style='background-color:orange; font-size:16pt;'>**Summary:**
   -   Explains Shorcut Connections
 
   Befor we get into the heart of this paper, **There is something to point out.**
