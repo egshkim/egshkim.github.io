@@ -224,40 +224,35 @@ The picture in the above is, "Sara".
 
   Befor we get into the heart of this paper, **There is a thing to point out.**
 
-  The definition of a **function**.
+  *__Function is an expression, rule, or a thing  
+  that print output for an input in a consistent way__*
 
-  Function is an expression, rule, or law that defines a relationship between one variable and another variable.
-
-  For a certain input, function must print output in a consistent way.
-
-![Function](/assets/images/ResNet-review/다운로드 (12).png){: width="50%" height="50%"}
+![Function](/assets/images/ResNet-review/다운로드 (12).png){: width="30%" height="30%"}
 
   Let's look at the picture above.
 
-  There is a function **H that print output H(x) for input X.**
-
-  **When the output "H(x)" is equal to "x"**,  
-  we can say the function **H is an identity function.**
+  **H is a functuion that print-out output H(x) for input x.**
 
   **"Approximating identity function"** is equal to **"Approximating the function H that makes H(x) = x."**
 
-  The problem is that, as mentioned above, it is /**not easy** for neural network layers to **approximate the identity function.**
+  The problem is that, as mentioned above,  
+  it is **not easy** for neural network layers to **approximate the identity function.**
 
-  But <span style='color:red'>**what if we could learn H(x) - x instead of H?**</span>
+  But <span style='color:red'>**what if layers could approximate H(x) - x instead of H?**</span>
+  **The gap between ideal and reality, the Residual.**
 
-  Suppose "H(x) - x = F(x)".
+  Suppose "H(x) - x = F(x)".  
+  Then "H(x) = F(x) + x".
 
-  Instead of learning "Ideal" H(x), The models learn **"the gap between ideal and reality"** H(x)-x, **Residual.**
+  Let's change Figure 2 a bit by referring to the picture above.
 
-  Let's change Figure 2 a little by referring to the picture above.
+![Blux box](/assets/images/ResNet-review/다운로드 (13).png){: width="50%" height="50%"}
 
-  [##_Image|kage@dTK9Z2/btrRGmwTwXV/r6PBTW3ynIsqlpdiKV5gtK/img.png|CDM|1.3|{"originWidth":1444,"originHeight":536,"style":"alignCenter","caption":"Ccovered the picture in Figure 2 with a blue box. That blue box represents the function H."}_##]
-
-  The function H in that blue box will represent F(x) + x.  
+  **The blue box is a function H that print-out H(x), which is equal to F(x) + x.**
 
   Let's remove the blue box.
 
-  [##_Image|kage@xxurB/btrRBfTuSpB/hAEr8BaBOtEA8Plkx15oK1/img.png|CDM|1.3|{"originWidth":1162,"originHeight":465,"style":"alignCenter","caption":"H(x) = 2 weight layers + Shortcut Connections"}_##]
+![Figure 2](/assets/images/ResNet-review/다운로드 (14).png){: width="30%" height="30%"}
 
   The **function F** consists of **"Convolution operation - ReLu activation function operation - Convolution operation".**  
 
