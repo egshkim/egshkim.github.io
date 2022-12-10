@@ -110,7 +110,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
 <span style='background-color:orange; font-size:20pt;'>**The 3rd paragraph in Introduction**
 
-![The Third paragraph of Introduction](/assets/images/ResNet-review/다운로드 (4).png){: width="50%" height="50%"}
+![The Third paragraph of Introduction](/assets/images/ResNet-review/다운로드 (4).png){: width="70%" height="70%"}
 
 <span style='background-color:orange; font-size:16pt;'>**Summary:**
   -   **"Really, the more layers the models stack, the better the models** <span style='color: red'>**perform?"**  
@@ -221,7 +221,7 @@ The picture in the above is, "Sara".
 
 <br/>
 
-<span style='background-color:orange; font-size:20pt;'>Pre-requistie Before Getting into the Heart
+<span style='background-color:orange; font-size:20pt;'>**Pre-requistie Before Getting into the Heart**
 
   Befor we get into the heart of this paper, **There is a thing to point out.**
 
@@ -294,7 +294,7 @@ The picture in the above is, "Sara".
   can be made.
 
 ---
-  <span style='background-color:orange; font-size:20pt;'>The 7th ~ 9th paragraph in Introduction
+  <span style='background-color:orange; font-size:20pt;'>**The 7th ~ 9th paragraph in Introduction**
 
   ![7th~9th paragraphs](/assets/images/ResNet-review/다운로드 (15).png){: width="50%" height="50%"}
 
@@ -460,11 +460,12 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 ---
 
-  <span style='background-color:orange; font-size:20pt;'>Let's look into the **middle part of Table 3.**
+  <span style='background-color:orange; font-size:20pt;'> **Table 3.**
 
+  Let's look into the middle part of Table 3.  
   Compared Plain net and ResNet-34 with A/B/C options.
 
-![Table3](/assets/images/ResNet-review/다운로드 (24).png){: width="50%" height="50%"}
+![Table3](/assets/images/ResNet-review/다운로드 (24).png){: width="70%" height="70%"}
 
   -   **Option A**
       -   Dimension Increasing Shortcuts : use Zero padding shortcuts
@@ -500,7 +501,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   <span style='background-color:orange; font-size:20pt;'>Let's look into **the bottom of Table 3.**
 
-![Table3](/assets/images/ResNet-review/다운로드 (25).png){: width="50%" height="50%"}
+![Table3](/assets/images/ResNet-review/다운로드 (25).png){: width="70%" height="70%"}
 
   ResNets with more layers than 34 were also tested.
 
