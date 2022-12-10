@@ -391,6 +391,8 @@ The picture in the above is, "Sara".
   -   **the deeper the Plain net,** the higher the error
   -   **the deeper the ResNet, the lower the error**
 
+<br/>
+
 ---
 
   <span style='background-color:orange; font-size:20pt;'>**Figure 4**
@@ -411,6 +413,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
       -   If it is due to gradients vanishing, learning should not have been achieved.  
           -   But as you see, Plain-34 has competitive accuracy.
           -   It means, learning is being achieved to some degree.
+
 <br/>
 
 ---
@@ -432,24 +435,28 @@ In this plot, the residual networks have no extra parameter compared to their pl
   -   **ResNet optimize much faster than Plain net.**
       -   If Neural Network is not very deep, Plain net performs quite good. (27.94 vs 27.88)
       -   But you should still use **ResNet. It optimizes very fast.** 
+
 <br/>
+
 ---
 
   <span style='background-color:orange; font-size:20pt;'>**Table 3 ~ 5**
 
-  With dimension increasing shortcut connections,
-  Used 2 methods to make the dimensions be same.  
+  When dimension increases by shortcut connections,
+  Used 2 methods to make the dimensions be identical.  
   (Refer to Figure 3 explanation)
 
-![Table3~5](/assets/images/ResNet-review/다운로드 (23).png){: width="100%" height="100%"}
+![Table3~5](/assets/images/ResNet-review/다운로드 (23).png){: width="50%" height="50%"}
 
-  -   Zero padding shortcuts : Add channels which have "0" values.
+  -   **Zero padding shortcuts** : Add channels which have "0" values.
       -   No parameters to be learned.  
-  -   Projection shortcuts : 1x1 convolution for doubling filter numbers 
+  -   **Projection shortcuts** : 1x1 convolution for doubling filter numbers 
       -   There are parameters to be learned.
 
   **Table 3** summarized validation errors with the above two methods in various combinations  
   of **Dimension Increasing Shortcuts and Dimension Staying Shortcuts.**
+
+<br/>
 
 ---
 
