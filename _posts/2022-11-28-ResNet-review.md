@@ -668,7 +668,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 ---
 
-  Lastly, the authors wrap up this paper emphasizing on the excellence of ResNet, revealing that ResNet has won the following competitions.
+  Lastly, the authors **wrap up this paper emphasizing on the excellence of ResNet, mentioning the following competitions ResNet has won.**
 
   -   ImageNet detection in ILSVRC 2015
   -   ImageNet localization in ILSVRC 2015
