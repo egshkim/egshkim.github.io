@@ -582,17 +582,19 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   <span style = 'background-color:orange; font-size:20;'>**Figure 6**
 
-  Let's look into the left of Figure 6.
+  Let's look at the left of Figure 6.
 
 ![Figure6](/assets/images/ResNet-review/다운로드 (32).png){: width="100%" height="100%"}
 
   Dashed lines denote training error, and bold lines denote testing error.
 
-  *(It's not a matter of overfitting.)*
 
-![the left of Figure4](/assets/images/ResNet-review/다운로드 (33).png){: width="100%" height="100%"}  
+![the left of Figure4](/assets/images/ResNet-review/다운로드 (33).png){: width="50%" height="50%"}  
 *the left of Figure 4*
 
+<br/>
+
+<span style = 'background-color:orange; font-size:16;'>**Summary:**</span>
   -   the left of Figure 6
       -   The deep plain-net "suffers" from the increased depth, and the training error increases as the depth increases.  
       
@@ -603,10 +605,10 @@ In this plot, the residual networks have no extra parameter compared to their pl
   -   Similar observations have been reported with MNIST dataset.  
       -   _R. K. Srivastava, K. Greff, and J. Schmidhuber. Highway networks. arXiv:1505.00387, 2015._
 
-  The following conclusions can be drawn by  
-  the left picture of Figure 6, the left picture of Figure 4, and the existing paper.
+  The following conclusion can be drawn.
 
-  <span style='color:red; font-size:16pt;'>_**""The optimization difficulity of deep neural networks is a FUNDAMENTAL problem."**_
+  <span style='color:red; font-size:16pt;'>_**""The optimization difficulity of deep neural networks is a FUNDAMENTAL problem."**_</span>  
+  *(It's not a matter of overfitting.)*
 
 ---
 
