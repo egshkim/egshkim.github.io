@@ -579,7 +579,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 ---
 
-  <span style = 'background-color:orange; font-size:20pt;'>**Figure 6**
+  <span style = 'background-color:orange; font-size:20pt;'>**The left of Figure 6**
 
   Let's look at the left of Figure 6.
 
@@ -593,7 +593,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 <br/>
 
-<span style = 'background-color:orange; font-size:16;'>**Summary:**</span>
+<span style = 'background-color:orange; font-size:16pt;'>**Summary:**</span>
   -   the left of Figure 6
       -   The deep plain-net "suffers" from the increased depth, and the training error increases as the depth increases.  
       
@@ -604,25 +604,31 @@ In this plot, the residual networks have no extra parameter compared to their pl
   -   Similar observations have been reported with MNIST dataset.  
       -   _R. K. Srivastava, K. Greff, and J. Schmidhuber. Highway networks. arXiv:1505.00387, 2015._
 
-  The following conclusion can be drawn.
+  The following comprehensive conclusion can be drawn.
 
   <span style='color:red; font-size:16pt;'>_**""The optimization difficulity of deep neural networks is a FUNDAMENTAL problem."**_</span>  
   *(It's not a matter of overfitting.)*
 
 ---
 
-  The following conclusions can be drawn through the picture in the middle of Figure 6 and the picture on the right of Figure 4.
+  <span style = 'background-color:orange; font-size:20pt;'>**The middle of Figure 6**
 
-  [##_Image|kage@bRYiBh/btrREVGi5xJ/r1rufvCeNM0mcPV946jsgk/img.png|CDM|1.3|{"originWidth":1819,"originHeight":488,"style":"alignCenter","caption":"Figure 6. Training on CIFAR-10. Dashed lines denote training error, and bold lines denote testing error. Left: plain networks. The error of plain-110 is higher than 60% and not displayed. Middle: ResNets. Right: ResNets with 110 and 1202 layers."}_##]
+  Let's look at the middle of Figure 6.
 
-  ### _**"ResNet has overcome the optimization difficulity. Accuracy increased when depth increased."**_
+![the middle of Figure6](/assets/images/ResNet-review/다운로드 (34).png){: width="50%" height="50%"}  
 
-  [##_Image|kage@cDTcsF/btrRGmjl4Tr/LnmyOx5VDoBqAxN2fXkQ70/img.png|CDM|1.3|{"originWidth":365,"originHeight":300,"style":"floatRight"}_##]
-
+  <span style = 'background-color:orange; font-size:16pt;'>**Summary:**</span>
   -   the middel of Figure 6
       -   As depth increased in ResNet, Training error and Testing error decreased.
   -   the right of Figure 4
       -   Similar observations have been made with ImageNet dataset.
+
+![the right of Figure4](/assets/images/ResNet-review/다운로드 (35).png){: width="50%" height="50%"}  
+*the right of Figure 4*
+
+The comprehensive conclusions can be drawn through the picture in the middle of Figure 6 and the picture on the right of Figure 4.
+
+  <span style='color:red; font-size:16pt;'>_**"ResNet has overcome the optimization difficulity. Accuracy increased when depth increased."**_
 
 ---
 
