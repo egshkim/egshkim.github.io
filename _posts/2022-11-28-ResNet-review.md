@@ -270,31 +270,25 @@ The picture in the above is, "Sara".
   <span style='color:red'>**- An operation of adding Input x to F(x)".**</span>
 
   <span style='color:red'>**"An operation of adding Input x to F(x)"**</span> is just a  
-  <span style='color:red'>**"command" to add input x**</span>  
-  **in which** <span style='color:red'>**parameters**</span> **to be learned** <span style='color:red'>**do not exist.**</span>
-
+  <span style='color:red'>**"command" to add input x**</span> **in which** <span style='color:red'>**parameters**</span> **to be learned** <span style='color:red'>**do not exist.**</span>
 
   **This achieves three.**
 
-  1. When updating parameters, we learn function F, not function H.  
+  1. When updating parameters, layer learns function F, not function H.  
+  Because, in the equation "H(x) = F(x) \+ x", **"\+ x" doesn't introduce parameters to learn.**  
+  **Without additional parameters to be learned,** learning the residual,** the gap between ideal and reality, **is achieved.**
 
-  This is because, at "H = F(x) \+ x", "\+ x" has no parameter to learn.  
+  1. It becomes easier for function H to approximate the identity function.  
+  As H(x) = F(x) + x, when F(x) becomes 0, then H(x) = 0 + x = x then H(x) = x.
 
-  The function F = H - x.  
-
-  **Without additional parameters to be learned, Residual,** the gap between ideal and reality, **is learned.**
-
-  2. It becomes easier for function H to approximate the Identity Function.  
-  Since the function H = F(x) + x, if F(x) becomes 0, then H = 0 + x = x and H(x) = x.
-
-  That is, **if** function **F approximates Zero Function,** function **H become Identity Function.**
-
+  That is, **when** function **F approximates zero function,** function **H approximates identity function.**
+  
   It is relatively easy to approximate the Zero Function because all the necessary parameters need to be zero.  
   (Same whether it's FCNN or CNN. All operations only consists of multiplying and adding.)
 
   In addition, Zero Function is easy to approximate because the weights flowing through the deep neural network have the property of approaching zero.
 
-  3. Because there are no additional parameters to learn,  
+  1. Because there are no additional parameters to learn,  
   A fair comparison between  
   **"Plain Networks" without Residual Connections**  
   **"Residual Networks" with Residual Connections**  
