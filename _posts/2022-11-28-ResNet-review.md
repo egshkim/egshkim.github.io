@@ -1,63 +1,75 @@
 ---
 published: true
-layout: post
+layout: single
 title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (ResNet)"
 ---
+<br/>
 
-- This paper is written by Kaming He in 2015 and cited about “140,000” times.
+  This paper is written by Kaming He in 2015 and cited about “140,000” times.
 
   Pasted 7 years but still has powerful impacts.
 
-  
+<br/>
 
   ![Cited times](/assets/images/ResNet-review/다운로드.png)
 
-  
+<br/>
 
   **Why this paper has so powerful impact ?**
 
-  1.  This paper introduced “Skip Connection” for the first time which is used in State-of-the-art Deep Learning Models like YOLO, Transformer, U-Net, etc.
-  2.  This paper made “Deep” possible in Deep Learning. It has enabled neural networks to stack extremely deep layers in a very economic way.
+  1.  This paper introduced “Skip Connection” for the first time which is being used in the State-of-the-art Deep Learning Models like YOLO, Transformer, U-Net, etc.
 
-  From this, it is possible to estimate how important ResNet is in the field of deep learning.
+<br/>
 
+  2.  This paper made “Deep” possible in Deep Learning. It has enabled neural networks to stack extremely deep layers in a very economic way.  
+
+<br/>
+
+  From this, it is possible to __estimate   
+  how important ResNet is__ in the field of deep learning.
+
+<br/>
 
   This review assumes that the reader understands basic FCNN and CNN.
 
-  If you lack an understanding of FCN, refer to the following video.
+  If you lack an understanding of FCNN,  
+  please refer to the following video.
 
   [https://www.youtube.com/watch?v=aircAruvnKk&ab\_channel=3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk&ab_channel=3Blue1Brown) 
 
   <iframe src="https://www.youtube.com/embed/aircAruvnKk" width="860" height="484" frameborder="0" allowfullscreen="true"></iframe>
 
-  If you lack an understanding of CNN, see the following blog.
-
+  If you lack an understanding of CNN, visit the following blog.
   (Figures are perfect to understand CNN…!)
 
   [https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
 
+<br/>
 
+  I review every paragraphs in Abstract and Introduction  
+  because every paragraph is important.
 
-  I review every paragraphs in Abstract and Introduction because all paragraphs contain very important content.
+  From then, I review Figures and Tables.
 
-  After introduction, I review Figures and Tables.
+<br/>
 
   So, Let’s get started !
 
 ---
 
-
-
   ### **Abstract & The heart of the paper**
 
+<br/>
+
   -   **Observed a problem : Degradation Problem.**  
-      -   **When layers be stacked extremely deep, Accuracy decreased.**  
-          
+      -   When layers be stacked extremely deep, Accuracy decreased.
+
+<br/>          
       
-  -   **The solution this paper suggests : ResNet**  
+  -   **The solution** this paper suggests : **ResNet**
       -   When **ResNet** stacks extremely **deep layers, it learns well.**  
           
-      -   Even **extremely deep ResNet are easy to optimize.**
+      -   Even **extremely deep ResNet was easy to optimize.**
 
 
 
