@@ -59,11 +59,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
 <span style='background-color:orange; font-size:20pt;'>**The 1st paragraph in Introduction**
 
-<br/>
-
 ![The First paragraph of Introduction](/assets/images/ResNet-review/다운로드 (2).png)
-
-<br/>
 
   -   **Introduces existing perspectives in the field of Deep Learning**
       
