@@ -276,17 +276,16 @@ The picture in the above is, "Sara".
 
   1. When updating parameters, layer learns function F, not function H.  
   Because, in the equation "H(x) = F(x) \+ x", **"\+ x" doesn't introduce parameters to learn.**  
-  **Without additional parameters to be learned,** learning the residual,** the gap between ideal and reality, **is achieved.**
+  **Without additional parameters,  
+  learning the residual,** the gap between ideal and reality, **is achieved.**
 
   1. It becomes easier for function H to approximate the identity function.  
-  As H(x) = F(x) + x, when F(x) becomes 0, then H(x) = 0 + x = x then H(x) = x.
-
-  That is, **when** function **F approximates zero function,** function **H approximates identity function.**
-  
-  It is relatively easy to approximate the Zero Function because all the necessary parameters need to be zero.  
-  (Same whether it's FCNN or CNN. All operations only consists of multiplying and adding.)
-
-  In addition, Zero Function is easy to approximate because the weights flowing through the deep neural network have the property of approaching zero.
+  As H(x) = F(x) + x,<span style = 'color:red'>**when F(x) becomes 0**</span>, then H(x) = 0 + x = x <span style = 'color:red'>**then H(x) = x.**</span>  
+  That is, **when** function **F approximates zero function,**  
+  function **H approximates identity function.**  
+  It is relatively easy to approximate the Zero Function. Just make all the parameters "0". That's all.  
+  * Because All operations of FCNN and CNN only consists of multiplying and adding.  
+  * Additionally, the weights flowing through the deep neural network have the property of approaching zero.
 
   1. Because there are no additional parameters to learn,  
   A fair comparison between  
