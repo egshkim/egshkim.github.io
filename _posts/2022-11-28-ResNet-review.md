@@ -630,11 +630,9 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   <span style='color:red; font-size:14pt;'>_**"ResNet has overcome the optimization difficulity. Accuracy increased when depth increased."**_
 
----
+![the right of Figure6](/assets/images/ResNet-review/다운로드 (36).png){: width="100%" height="100%"}  
 
   Thereafter, the ResNet model with 1202 layers was evaluated by setting n = 200.
-
-  [##_Image|kage@O1umb/btrRHA9vvBp/4ya0AmdPKiPKXLFLhQzRM1/img.png|CDM|1.3|{"originWidth":1821,"originHeight":482,"style":"alignCenter","caption":"Figure 6. Training on CIFAR-10. Dashed lines denote training error, and bold lines denote testing error. Left: plain networks. The error of plain-110 is higher than 60% and not displayed. Middle: ResNets. Right: ResNets with 110 and 1202 layers."}_##]
 
   **The test error of ResNet-1202** was 7.93%, **higher than that of ResNet-110.**
 
