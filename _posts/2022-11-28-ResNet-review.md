@@ -10,12 +10,14 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   
 
+  ```html
+  <img src="/assets/images/ResNet-review/다운로드.png" width="90%" height="90%" title="Cited times"/> 
   ```
-  <img src="/assets/images/8.png" width="90%" height="90%" title="Cited times"/> 
-  ```
+
+  ![Cited times](/assets/images/ResNet-review/다운로드.png)
 
   
-
+  
   **Why this paper has so powerful impact ?**
   
   1.  This paper introduced “Skip Connection” for the first time which is used in State-of-the-art Deep Learning Models like YOLO, Transformer, U-Net, etc.
