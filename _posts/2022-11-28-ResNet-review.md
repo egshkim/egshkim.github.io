@@ -27,7 +27,9 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
   [https://www.youtube.com/watch?v=aircAruvnKk&ab\_channel=3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk&ab_channel=3Blue1Brown) 
 
   <iframe src="https://www.youtube.com/embed/aircAruvnKk" width="860" height="484" frameborder="0" allowfullscreen="true"></iframe>
+  
   <br/>
+
   If you lack an understanding of CNN, visit the following blog.
   (Figures are perfect to understand CNN…!)
 
@@ -41,7 +43,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
   So, Let’s get started !
 
 ---
-  ## Abstract & The heart of the paper
+  <span style='background-color:orange; font-size:20pt;'>**Abstract & The heart of the paper**
 
   -   **Observed a problem : Degradation Problem.**  
       -   When layers be stacked extremely deep, Accuracy decreased.
@@ -53,10 +55,12 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
 ---
 
-<span style='background-color: orange'>**The 1st paragraph in Introduction**
+<span style='background-color:orange; font-size:20pt;'>**The 1st paragraph in Introduction**
 
 <br/>
+
 ![The First paragraph of Introduction](/assets/images/ResNet-review/다운로드 (2).png)
+
 <br/>
 
   -   **Introduces existing perspectives in the field of Deep Learning**
