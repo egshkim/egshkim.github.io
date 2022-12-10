@@ -464,7 +464,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   Compared Plain net and ResNet-34 with A/B/C options.
 
-![Table3](/assets/images/ResNet-review/다운로드 (24).png){: width="100%" height="100%"}
+![Table3](/assets/images/ResNet-review/다운로드 (24).png){: width="50%" height="50%"}
 
   -   **Option A**
       -   Dimension Increasing Shortcuts : use Zero padding shortcuts
@@ -483,7 +483,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
       -   Dimension Staying Shortcuts : use projection shortcuts
       -   → All Shortcuts introduce parameters to be learned.
 
-<span style='background-color:orange; font-size:16pt;'>Summary:</span>
+<span style='background-color:orange; font-size:16pt;'>**Summary:**</span>
 
   -   **With any options, Better performance than plain-34.**
 
@@ -494,19 +494,21 @@ In this plot, the residual networks have no extra parameter compared to their pl
       
   -   **Used economic option B in the left experiments.**
 
+<br/>
+
 ---
 
   <span style='background-color:orange; font-size:20pt;'>Let's look into **the bottom of Table 3.**
 
-![Table3](/assets/images/ResNet-review/다운로드 (25).png){: width="100%" height="100%"}
+![Table3](/assets/images/ResNet-review/다운로드 (25).png){: width="50%" height="50%"}
 
   ResNets with more layers than 34 were also tested.
 
   However, there were too many parameters to use the building block as it was.
 
-  So, ResNet-50, ResNet-101, ResNet-152 use new building blocks.
+  So, **ResNet-50, ResNet-101, ResNet-152 use new building blocks.**
 
-![Table3](/assets/images/ResNet-review/다운로드 (26).png){: width="100%" height="100%"}
+![Table3](/assets/images/ResNet-review/다운로드 (26).png){: width="50%" height="50%"}
 
   Looking at the picture on the right side of Figure 5, "bottleneck" building block is shown.
 
@@ -515,8 +517,9 @@ In this plot, the residual networks have no extra parameter compared to their pl
   It then goes through 3x3 convolution.
 
   As the 1x1 convolution is performed again, the number of channels is recovered.
-
-  I compared the number of learning parameters because I was curious if the Bottleneck building block was really efficient.
+  
+  Would the Bottleneck building block be really efficient ?  
+  I compared the number of learning parameters
 
 ![Table3](/assets/images/ResNet-review/다운로드 (27).png){: width="100%" height="100%"}
 
