@@ -156,7 +156,7 @@ Let's take a look at the left of Figure 1.
 The picture in the above is, "Sara".
 
   **Suppose there are two Fully Connected Neural Networks**,  
-  and the **shallower model of both has learned the image of Sara**  
+  and the **"shallower" model has learned the image of Sara**  
   with the following architecture. 
 
 <br/>
@@ -169,25 +169,26 @@ The picture in the above is, "Sara".
 
 ![Architecture of the deeper model](/assets/images/ResNet-review/다운로드 (9).png)
 
-  Ideally, **it would be very nice  
-  if each added layer was optimized as a layer that approximates identity function  
-  so that the "Deeper" network still be able to correctly infer Sara.**
+  Ideally, **it would be very nice**  
+  <span style='color:red'>**if each added layer was optimized as a Identity mapping**</span>  
+  **so that the "Deeper" network still be able to correctly infer Sara.**
 
-  Then, the **"Deeper" neural network should perform better, or at least simillar  
-  than the "Shallower"** neural network.
+  Then, the <span style='color:red'>**"Deeper" neural network should perform better, or at least simillar**</span>  
+  **than the "Shallower"** neural network.
 
-  However, **the results show the "Deeper" network performed worse.**
+  However, **the results show** <span style='color:red'>**the "Deeper" network performed worse.**
 
 ![Figure 1](/assets/images/ResNet-review/다운로드 (5).png){: width="50%" height="50%"}
 
-  Therefore, The authors say it is a very fundamental problem of  
+  Therefore, The authors say it is "a fundamental problem" about  
   the optimization difficulty of deep neural networks.
 
   Not just a matter of overfitting.
 
   *(In fact, it is not easy for neural network layers to approximate the Identity Function.  
-  Perhaps, **the added layers might approximate Zero Function** rather than the identity function.  
-  This is because, In the first place, **the weights flowing through the deep neural network have the property of approaching "0".**)*
+  Perhaps, <span style='color:red'>**the added layers might approximate Zero Function**</span> rather than the identity function.  
+  This is because, In the first place,   
+  **the weights flowing through the deep neural network have the property of approaching "0".**)*
 
 
   How can we reduce the difficulty of optimization?
@@ -204,6 +205,7 @@ The picture in the above is, "Sara".
   -   Suggest ways to reduce the difficulty of optimization  
       -   Residual Mapping
 
+<br/>
 
   <span style='background-color:orange; font-size:20pt;'>**The 6th paragraph in Introduction**
 
@@ -212,6 +214,13 @@ The picture in the above is, "Sara".
 
 <span style='background-color:orange; font-size:16pt;'>**Summary:**
   -   Explains Shorcut Connections
+
+---
+---
+
+<br/>
+
+<span style='background-color:orange; font-size:20pt;'>Pre-requistie Before Getting into the body
 
   Befor we get into the heart of this paper, **There is something to point out.**
 
