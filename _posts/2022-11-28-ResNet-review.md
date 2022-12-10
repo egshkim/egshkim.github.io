@@ -524,24 +524,23 @@ In this plot, the residual networks have no extra parameter compared to their pl
 ![Table3](/assets/images/ResNet-review/다운로드 (27).png){: width="100%" height="100%"}
 
   Certainly,  
-  the number of parameters of the botleneck building block in the blue box is less than that of the building block in the red box,  
-  so the operation will be efficient.
+  the number of parameters of the botleneck building block in the blue box  
+  is less than that of the building block in the red box,  
+  so **the operation will be efficient.**
 
 ---
 
-  summarizes the bottom of Table 3  + Table 4 + Table 5 :
+  <span style = 'background-color:orange; font-size:20;'>**Summary of the bottom of Table 3  + Table 4 + Table 5 :**
 
 ![Table3](/assets/images/ResNet-review/다운로드 (28).png){: width="100%" height="100%"}
 
   -   the bottom of Table 3
       -   Even extremely deep ResNet learns well.
       -   The deeper the ResNet, The lower the error.  
-          
       
   -   Table 4
       -   ResNet-34 has beaten all state-of-the-art deep learning models.
       -   Single model ResNet-152 has beaten all state-of-the-art deep learning ensemble models.  
-          
       
   -   Table 5
       -   Made a ResNet Ensemble with 6 different ResNets.
@@ -549,9 +548,10 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 ---
 
-  ### **Table 6**
+  <span style = 'background-color:orange; font-size:20;'>**Table 6**
 
-  **Experiments were conducted on CIFAR-10 Dataset to show that ResNet is not limited to a certain dataset.**
+  **Experiments were conducted on CIFAR-10 Dataset to show 
+  that ResNet is not limited to a certain dataset.**
 
   The authors conducted experiments with CIFAR-10 Dataset with "simple architectures" on purpose.
 
@@ -559,7 +559,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   A figure summarizing the "simple architecture" used for learning CIFAR-10 Dataset is inserted in the paper.
 
-![Table3](/assets/images/ResNet-review/다운로드 (29).png){: width="100%" height="100%"}
+![Table3](/assets/images/ResNet-review/다운로드 (29).png){: width="50%" height="50%"}
 
   With the above picture, couldn't have a good grasp, so I draw following table.
 
@@ -567,9 +567,10 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   The result is following.
 
-![Table3](/assets/images/ResNet-review/다운로드 (31).png){: width="100%" height="100%"}
+  <span style = 'background-color:orange; font-size:20;'>**Table 6**
 
-  **Table 6**
+![Table3](/assets/images/ResNet-review/다운로드 (31).png){: width="40%" height="40%"}
+
 
   -   ResNet has beaten FitNet and Highway, the existing best Classification models
   -   **ResNet performs better with much fewer parameters.**
