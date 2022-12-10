@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "Eugene"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "*We will find a way. We always have.*"
+  bio              : "*We will find a way. <br/>We always have.*"
   location         : "Daejeon, Republic of Korea"
   email            :
   links:
