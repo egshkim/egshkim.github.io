@@ -586,27 +586,27 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 ![Figure6](/assets/images/ResNet-review/다운로드 (32).png){: width="100%" height="100%"}
 
-  [##_Image|kage@lkWrh/btrRGv8qSuw/fpvvk29rBfLcpmKkalimSk/img.png|CDM|1.3|{"originWidth":1820,"originHeight":488,"style":"alignCenter","caption":"Figure 6. Training on CIFAR-10. Dashed lines denote training error, and bold lines denote testing error. Left: plain networks. The error of plain-110 is higher than 60% and not displayed. Middle: ResNets. Right: ResNets with 110 and 1202 layers."}_##]
+  Dashed lines denote training error, and bold lines denote testing error.
 
-  The following conclusions can be drawn through the left picture of Figure 6, the left picture of Figure 4, and the existing paper.
+  *(It's not a matter of overfitting.)*
 
-  ### _**""The optimization difficulity of deep neural networks is a FUNDAMENTAL problem."**_
-
-  ### (It's not a matter of overfitting.)
-
-  [##_Image|kage@CFSxn/btrRBKMke1b/eJYWh4SVmsfBS2lb8uPEZ0/img.png|CDM|1.3|{"originWidth":366,"originHeight":302,"style":"floatRight"}_##]
+![the left of Figure4](/assets/images/ResNet-review/다운로드 (33).png){: width="100%" height="100%"}  
+*the left of Figure 4*
 
   -   the left of Figure 6
       -   The deep plain-net "suffers" from the increased depth, and the training error increases as the depth increases.  
-          
       
   -   the left of Figure 4
       -   For ImageNet Dataset,  
           it was observed that the training error increases as the depth increases.  
           
-      
   -   Similar observations have been reported with MNIST dataset.  
       -   _R. K. Srivastava, K. Greff, and J. Schmidhuber. Highway networks. arXiv:1505.00387, 2015._
+
+  The following conclusions can be drawn by  
+  the left picture of Figure 6, the left picture of Figure 4, and the existing paper.
+
+  <span style='color:red; font-size:16pt;'>_**""The optimization difficulity of deep neural networks is a FUNDAMENTAL problem."**_
 
 ---
 
