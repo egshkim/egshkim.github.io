@@ -279,25 +279,24 @@ The picture in the above is, "Sara".
   **Without additional parameters,  
   learning the residual,** the gap between ideal and reality, **is achieved.**
 
-  1. It becomes easier for function H to approximate the identity function.  
-  As H(x) = F(x) + x,<span style = 'color:red'>**when F(x) becomes 0**</span>, then H(x) = 0 + x = x <span style = 'color:red'>**then H(x) = x.**</span>  
+  1. It becomes <span style = 'color:red'>**easier for function H to approximate the identity function.**</span>
+  As H(x) = F(x) + x, <span style = 'color:red'>**when F(x) becomes 0**</span>, then H(x) = 0 + x = x <span style = 'color:red'>**then H(x) = x.**</span>  
   That is, **when** function **F approximates zero function,**  
   function **H approximates identity function.**  
-  It is relatively easy to approximate the Zero Function. Just make all the parameters "0". That's all.  
+  And it is relatively **easy to approximate the Zero Function.** Just **make all the parameters "0".** That's all.  
   * Because All operations of FCNN and CNN only consists of multiplying and adding.  
-  * Additionally, the weights flowing through the deep neural network have the property of approaching zero.
+  * Additionally, the weights flowing through the deep neural network have the property of approaching zero.  
 
   3. Because there are no additional parameters to learn,  
-  A fair comparison between  
-  **"Plain Networks" without Residual Connections**  
-  **"Residual Networks" with Residual Connections**  
+  **A fair comparison** between  
+  **"Plain Networks"** without Residual Connections  
+  **"Residual Networks"** with Residual Connections  
   can be made.
 
 ---
+  <span style='background-color:orange; font-size:20pt;'>The 7th ~ 9th paragraph in Introduction
 
-  ### **The 7th ~ 9th paragraph in Introduction**
-
-  [##_Image|kage@P7Hqt/btrRGwTMdlH/IcQ9akbNiYF0GyismkkuG0/img.png|CDM|1.3|{"originWidth":606,"originHeight":816,"style":"floatRight","width":450,"height":606}_##]
+  ![7th~9th paragraphs](/assets/images/ResNet-review/다운로드 (15).png){: width="50%" height="50%"}
 
   The results of experiements with ResNet are summarized.
 
