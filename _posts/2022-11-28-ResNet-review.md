@@ -47,7 +47,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 ---
 <br/>
 
-  ### __Abstract & The heart of the paper__
+  ### Abstract & The heart of the paper
 
 <br/>
 
