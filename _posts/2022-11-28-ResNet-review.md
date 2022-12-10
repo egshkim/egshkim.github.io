@@ -3,17 +3,11 @@ published: true
 layout: single
 title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (ResNet)"
 ---
-<br/>
-
   This paper is written by Kaming He in 2015 and cited about “140,000” times.
 
   Pasted 7 years but still has powerful impacts.
 
-<br/>
-
   ![Cited times](/assets/images/ResNet-review/다운로드.png)
-
-<br/>
 
   **Why this paper has so powerful impact ?**
 
@@ -53,7 +47,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 ---
 <br/>
 
-  ### **Abstract & The heart of the paper**
+  ### __Abstract & The heart of the paper__
 
 <br/>
 
