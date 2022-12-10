@@ -279,7 +279,7 @@ The picture in the above is, "Sara".
   **Without additional parameters,  
   learning the residual,** the gap between ideal and reality, **is achieved.**
 
-  1. It becomes <span style = 'color:red'>**easier for function H to approximate the identity function.**</span>
+  1. It becomes <span style = 'color:red'>**easier for function H to approximate the identity function.**</span>  
   As H(x) = F(x) + x, <span style = 'color:red'>**when F(x) becomes 0**</span>, then H(x) = 0 + x = x <span style = 'color:red'>**then H(x) = x.**</span>  
   That is, **when** function **F approximates zero function,**  
   function **H approximates identity function.**  
@@ -298,46 +298,36 @@ The picture in the above is, "Sara".
 
   ![7th~9th paragraphs](/assets/images/ResNet-review/다운로드 (15).png){: width="50%" height="50%"}
 
-  The results of experiements with ResNet are summarized.
+  **The results of experiements with ResNet are summarized.**
 
-  -   With ResNet, even when the depth was extremely increased, it was easy to optimize. 
+  -   **With ResNet**, even when the depth was extremely increased, **it was easy to optimize.** 
       -   Remember? Deeper plain net increased training error unexpectedly.  
       
-  -   The deeper the depth, The higher the accuracy.
-      
-      -   ResNet has recorded the best accuracy among the state-of-the-art networks.  
+  -   **The deeper the depth, The higher the accuracy** with ResNet.
+      -   **ResNet has recorded the best accuracy** among the state-of-the-art networks.  
           
-      
   -   The results of experiements be consistent whether it's on ImageNet dataset or CIFAR-10 dataset.
-      
-      -   This result is not only for a certain dataset.  
-          
-      
-  -   With 152 layers of incredible depth, ResNet is the highest ever, but fewer parameters to learn than VGG net.
-      
+      -   So, these **results are not only for a certain dataset.**  
+            
+  -   With 152 layers of incredible depth, **ResNet is the deepest ever**, but **fewer parameters to learn** than VGG net.
       -   Thans to Shortcut Connections  
           
-      
   -   ResNet has won the following competitions.
       
       -   ImageNet detection in ILSVRC 2015
-          
       -   ImageNet localization in ILSVRC 2015
-          
       -   COCO detection in COCO 2015
-          
       -   COCO segmentation in COCO 2015
           
-
   Let's look into details in Figures and Tables.
 
 ---
 
-  ### **Figure 3**
+  <span style='background-color:orange; font-size:20pt;'>**Figure 3**
 
-  **Figure 3** visualizes t**he network architectures** used in the experiment at a glance **with VGG-19.**
+  **Figure 3** visualizes **the network architectures** used in the experiment at a glance.
 
-  [##_Image|kage@wiXUn/btrRBMDlTiB/zCUgu79W4p1lLLp1YkRHr0/img.png|CDM|1.3|{"originWidth":690,"originHeight":1042,"style":"floatRight","width":550,"height":831}_##]
+  ![Figure3](/assets/images/ResNet-review/다운로드 (16).png){: width="50%" height="50%"}
 
   -   Plain Network
       -   If the feature map size has been halved,  
