@@ -587,26 +587,26 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   Dashed lines denote training error, and bold lines denote testing error.
 
-
-![the left of Figure4](/assets/images/ResNet-review/다운로드 (33).png){: width="50%" height="50%"}  
-*the left of Figure 4*
-
 <br/>
 
 <span style = 'background-color:orange; font-size:16pt;'>**Summary:**</span>
   -   the left of Figure 6
       -   The deep plain-net "suffers" from the increased depth, and the training error increases as the depth increases.  
       
-  -   the left of Figure 4
+  -   **seen the similar observation in the left of Figure 4**
       -   For ImageNet Dataset,  
           it was observed that the training error increases as the depth increases.  
+          Refer to the below figure.
           
   -   Similar observations have been reported with MNIST dataset.  
       -   _R. K. Srivastava, K. Greff, and J. Schmidhuber. Highway networks. arXiv:1505.00387, 2015._
 
-  The following comprehensive conclusion can be drawn.
+![the left of Figure4](/assets/images/ResNet-review/다운로드 (33).png){: width="50%" height="50%"}  
+*the left of Figure 4*
 
-  <span style='color:red; font-size:16pt;'>_**""The optimization difficulity of deep neural networks is a FUNDAMENTAL problem."**_</span>  
+  **The following comprehensive conclusion can be drawn.**
+
+  <span style='color:red; font-size:14pt;'>_**""The optimization difficulity of deep neural networks is a FUNDAMENTAL problem."**_</span>  
   *(It's not a matter of overfitting.)*
 
 ---
@@ -615,7 +615,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   Let's look at the middle of Figure 6.
 
-![the middle of Figure6](/assets/images/ResNet-review/다운로드 (34).png){: width="50%" height="50%"}  
+![the middle of Figure6](/assets/images/ResNet-review/다운로드 (34).png){: width="100%" height="100%"}  
 
   <span style = 'background-color:orange; font-size:16pt;'>**Summary:**</span>
   -   the middel of Figure 6
@@ -626,9 +626,9 @@ In this plot, the residual networks have no extra parameter compared to their pl
 ![the right of Figure4](/assets/images/ResNet-review/다운로드 (35).png){: width="50%" height="50%"}  
 *the right of Figure 4*
 
-The comprehensive conclusions can be drawn through the picture in the middle of Figure 6 and the picture on the right of Figure 4.
+**The following comprehensive conclusions can be drawn.**
 
-  <span style='color:red; font-size:16pt;'>_**"ResNet has overcome the optimization difficulity. Accuracy increased when depth increased."**_
+  <span style='color:red; font-size:14pt;'>_**"ResNet has overcome the optimization difficulity. Accuracy increased when depth increased."**_
 
 ---
 
