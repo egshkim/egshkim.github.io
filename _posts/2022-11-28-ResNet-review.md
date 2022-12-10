@@ -10,7 +10,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   
 
-  ```html
+  ```
   <img src="/assets/images/8.png" width="90%" height="90%" title="Cited times"/> 
   ```
 
