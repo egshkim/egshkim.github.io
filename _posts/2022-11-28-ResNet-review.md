@@ -602,7 +602,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
       -   _R. K. Srivastava, K. Greff, and J. Schmidhuber. Highway networks. arXiv:1505.00387, 2015._
 
 ![the left of Figure4](/assets/images/ResNet-review/다운로드 (33).png){: width="50%" height="50%"}  
-*the left of Figure 4*
+*-the left of Figure 4*
 
   **The following comprehensive conclusion can be drawn.**
 
@@ -624,7 +624,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
       -   Similar observations have been made with ImageNet dataset.
 
 ![the right of Figure4](/assets/images/ResNet-review/다운로드 (35).png){: width="50%" height="50%"}  
-*the right of Figure 4*
+*-the right of Figure 4*
 
 **The following comprehensive conclusions can be drawn.**
 
