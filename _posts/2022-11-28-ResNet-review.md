@@ -53,6 +53,8 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
           
       -   Even **extremely deep ResNet was easy to optimize.**
 
+<br/>
+
 ---
 
 <span style='background-color:orange; font-size:20pt;'>**The 1st paragraph in Introduction**
@@ -70,21 +72,27 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
           <br/>
 
-          why people had such perspectives?
+          <u>why people had such a perspective?</u>
 
           -   **The performance of Neural Networks has improved a lot by deepening layers.**
           -   **As the layer is deepened, the level of extracted features can be further enriched.**
           -   **Recent state-of-the-art models on ImageNet have stacked 16~30 layers.**  
               (Quite deep, isnt’ it?)
----
-  **<span style='background-color: orange'>The 2nd paragraph in Introduction**
 
 <br/>
+
+---
+
+  <span style='background-color:orange; font-size:20pt;'>**The 2nd paragraph in Introduction**
+
+<br/>
+
 ![The Second paragraph of Introduction](/assets/images/ResNet-review/다운로드 (3).png)
+
 <br/>
 
   -   Some people asked a question.  
-      **"Really, the more layers the models stack, the better the models <span style='color: red'>learn?"**  
+      **"Really, the more layers the models stack, the better the models** <span style='color: red'>**learn?"**  
 
       **No. It didn't.**
 
@@ -102,16 +110,19 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
       -   Xavier Glorot and Yoshua Bengio suggested **Normalized Initialization** to solve this.
           -   Convolution layers in Tensorflow API used the uniform initiaization method in this paper as "default" initialization method.
 
-  **<span style='color: red'>However.. People faced another problem.**
+  <span style='color: red'>**However.. People faced another problem.**
 
 ---
-**<span style='background-color: orange'>The 3rd paragraph in Introduction**
+
+<span style='background-color:orange; font-size:20pt;'>**The 3rd paragraph in Introduction**
 
 <br/>
+
 ![The Third paragraph of Introduction](/assets/images/ResNet-review/다운로드 (4).png)
+
 <br/>
 
-  -   **"Really, the more layers the models stack, the better the models <span style='color: red'>perform?"**  
+  -   **"Really, the more layers the models stack, the better the models** <span style='color: red'>**xperform?"**  
 
       -   **The problem of gradients vanishing  was solved.**
           The models with extremely deep layers, started to learn anyway.
@@ -124,7 +135,9 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
           it was not due to overfitting.**
 
 <br/>
-![Figure 1](/assets/images/ResNet-review/다운로드 (5).png) 
+
+![Figure 1]("/assets/images/ResNet-review/다운로드 (5).png")
+
 <br/>
 
 ```
