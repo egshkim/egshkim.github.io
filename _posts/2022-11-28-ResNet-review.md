@@ -435,13 +435,13 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 ---
 
-  ### **Table 3 ~ 5**
+  <span style='background-color:orange; font-size:20pt;'>**Table 3 ~ 5**
 
   With dimension increasing shortcut connections,
+  Used 2 methods to make the dimensions be same.  
+  (Refer to Figure 3 explanation)
 
-  Used 2 methods to make the dimensions be same.(Refer to Figure 3 explanation)
-
-  [##_Image|kage@nLcGl/btrRAhRDHVT/cZMVbcFKfjEUIpykMtBkeK/img.png|CDM|1.3|{"originWidth":794,"originHeight":1051,"style":"floatRight","width":450,"height":596}_##]
+![Table3~5](/assets/images/ResNet-review/다운로드 (23).png){: width="100%" height="100%"}
 
   -   Zero padding shortcuts : Add channels which have "0" values.
       -   No parameters to be learned.  
