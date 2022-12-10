@@ -411,11 +411,11 @@ In this plot, the residual networks have no extra parameter compared to their pl
       -   If it is due to gradients vanishing, learning should not have been achieved.  
           -   But as you see, Plain-34 has competitive accuracy.
           -   It means, learning is being achieved to some degree.
-</br>
+<br/>
 
 ---
 
-  <span style='background-color:orange; font-size:20pt;'>Let's summarize Table 2 and Figure 4.
+  <span style='background-color:orange; font-size:20pt;'>**Let's summarize Table 2 and Figure 4.**
 
 ![Table2&Figure4](/assets/images/ResNet-review/다운로드 (22).png){: width="100%" height="100%"}
 
@@ -432,7 +432,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
   -   **ResNet optimize much faster than Plain net.**
       -   If Neural Network is not very deep, Plain net performs quite good. (27.94 vs 27.88)
       -   But you should still use **ResNet. It optimizes very fast.** 
-
+<br/>
 ---
 
   <span style='background-color:orange; font-size:20pt;'>**Table 3 ~ 5**
@@ -445,12 +445,11 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   -   Zero padding shortcuts : Add channels which have "0" values.
       -   No parameters to be learned.  
-          
-      
   -   Projection shortcuts : 1x1 convolution for doubling filter numbers 
       -   There are parameters to be learned.
 
-  **Table 3** summarized validation errors with the above two methods in various combinations on **Dimension Increasing Shortcuts and Dimension Staying Shortcuts.**
+  **Table 3** summarized validation errors with the above two methods in various combinations  
+  of **Dimension Increasing Shortcuts and Dimension Staying Shortcuts.**
 
 ---
 
