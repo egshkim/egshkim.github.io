@@ -530,7 +530,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 ---
 
-  <span style = 'background-color:orange; font-size:20;'>**Summary of the bottom of Table 3  + Table 4 + Table 5 :**
+  <span style = 'background-color:orange; font-size:20pt;'>**Summary of the bottom of Table 3  + Table 4 + Table 5 :**
 
 ![Table3](/assets/images/ResNet-review/다운로드 (28).png){: width="100%" height="100%"}
 
@@ -548,7 +548,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 ---
 
-  <span style = 'background-color:orange; font-size:20;'>**Table 6**
+  <span style = 'background-color:orange; font-size:20pt;'>**Table 6**
 
   **Experiments were conducted on CIFAR-10 Dataset to show 
   that ResNet is not limited to a certain dataset.**
@@ -567,10 +567,9 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   The result is following.
 
-  <span style = 'background-color:orange; font-size:20;'>**Table 6**
-
 ![Table3](/assets/images/ResNet-review/다운로드 (31).png){: width="60%" height="60%"}
 
+  <span style = 'background-color:orange; font-size:20pt;'>**Summary of Table 6:**
   -   ResNet has beaten FitNet and Highway, the existing best Classification models
   -   **ResNet performs better with much fewer parameters.**
 
@@ -580,7 +579,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 ---
 
-  <span style = 'background-color:orange; font-size:20;'>**Figure 6**
+  <span style = 'background-color:orange; font-size:20pt;'>**Figure 6**
 
   Let's look at the left of Figure 6.
 
