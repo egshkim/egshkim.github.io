@@ -1,6 +1,6 @@
 ---
 published: true
-layout: post
+layout: single
 title:  "[Trial][English] [Paper Review] Deep Residual Learning for Image Recognition (ResNet)"
 ---
 
