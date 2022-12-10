@@ -61,6 +61,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
 ![The First paragraph of Introduction](/assets/images/ResNet-review/다운로드 (2).png)
 
+Summary:
   -   **Introduces existing perspectives in the field of Deep Learning**
       
       -   **Existing perspectives :**  
@@ -81,12 +82,9 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
   <span style='background-color:orange; font-size:20pt;'>**The 2nd paragraph in Introduction**
 
-<br/>
-
 ![The Second paragraph of Introduction](/assets/images/ResNet-review/다운로드 (3).png)
 
-<br/>
-
+Summary:
   -   Some people asked a question.  
       **"Really, the more layers the models stack, the better the models** <span style='color: red'>**learn?"**  
 
@@ -112,12 +110,9 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 
 <span style='background-color:orange; font-size:20pt;'>**The 3rd paragraph in Introduction**
 
-<br/>
-
 ![The Third paragraph of Introduction](/assets/images/ResNet-review/다운로드 (4).png)
 
-<br/>
-
+Summary:
   -   **"Really, the more layers the models stack, the better the models** <span style='color: red'>**perform?"**  
 
       -   **The problem of gradients vanishing  was solved.**
@@ -137,8 +132,7 @@ title:  "[English] [Paper Review] Deep Residual Learning for Image Recognition (
 <br/>
 
 Let's take a look at the left of Figure 1.  
-As the layer be deepened, the training error increased.  
-As shown on the right, the test error also increased.
+**As the layer be deepened, the training error increased** as well as the test error.
 
 
   <span style='color: red'>**So what on earth is the problem ?**
@@ -147,12 +141,10 @@ As shown on the right, the test error also increased.
 
   <span style='background-color:orange; font-size:20pt;'>**The 4th paragraph in Introduction**
 
-<br/>
 
 ![4th paragraph of Introduction](/assets/images/ResNet-review/다운로드 (6).png)
 
-<br/>
-
+Summary:
   -   Explains which experiements they have conducted to explore problems.  
       
 <br/>
@@ -161,34 +153,34 @@ As shown on the right, the test error also increased.
 
 <br/>
 
-The picture shown in the above is, "Sara".
+The picture in the above is, "Sara".
 
-  **Suppose there are two FCNNs**,  
-  and the **shallower model has learned the image of Sara**  
+  **Suppose there are two Fully Connected Neural Networks**,  
+  and the **shallower model of both has learned the image of Sara**  
   with the following architecture. 
 
 <br/>
 
-![Architectures of two FCNNs](/assets/images/ResNet-review/다운로드 (8).png)
+![Architecture of the Shallower model](/assets/images/ResNet-review/다운로드 (8).png)
 
 <br/>
 
-  Then, **copy the learned neural network and add some layers** to the top (near output layer) .
+  And suppose we have **copied the learned shallower model and add some layers** to the top (near output layer).
 
-  [##_Image|kage@bGxy2N/btrRDUHN7XF/3XZgt92bKHvtxbNbpdsnUK/img.png|CDM|1.3|{"originWidth":1852,"originHeight":467,"style":"alignCenter","caption":"Draw neural network on https://alexlenail.me/NN-SVG/index.html"}_##]
+![Architecture of the deeper model](/assets/images/ResNet-review/다운로드 (9).png)
 
   Ideally, it would be nice if each added layer works as identity mapping.  
-  (Identity mapping : A layer that should approximate Identity Function.)
+  *(Identity mapping : A layer that should approximate Identity Function.)*
 
-  In other words, **it would be very nice if each added layer was optimized as a layer that approximates the identity function.**
-
-  (Identity function is a function that print out inputs as an output.)
+  In other words,  
+  **it would be very nice if each added layer was optimized as a layer that approximates the identity function.**
 
   **If so, this "Deeper" neural network will still be able to correctly infer Sara.**
 
   If the added layers successfully approximated the identity function,
 
-  The **"Deeper" neural network should perform better, or at least simillar than the "Shallower"** neural network.
+  The **"Deeper" neural network should perform better, or at least simillar  
+  than the "Shallower"** neural network.
 
   However, **the results showed "Deeper" network performed worse.**
 
