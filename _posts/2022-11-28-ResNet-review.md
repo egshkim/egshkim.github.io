@@ -2,6 +2,17 @@
 published: true
 layout: single
 title:  "[Paper Review] Deep Residual Learning for Image Recognition (ResNet)"
+tags:
+  - Residual
+  - ResNet
+  - Residual Connection
+  - Skip Connection
+  - ResNet explained
+  - ResNet review
+  - resnet
+  - resnet paper review
+  - resnet paper explained
+  - resnet paper
 ---
   This paper is written by Kaming He in 2015 and cited about “140,000” times.
 
