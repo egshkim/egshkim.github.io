@@ -53,7 +53,7 @@ tags:
 
   So, Let’s get started !
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'>**Abstract & The heart of the paper**
 
@@ -67,7 +67,7 @@ tags:
 
 <br/>
 
-<hr size="10">
+<hr size="20">
 
 <span style='background-color:orange; font-size:20pt;'>**The 1st paragraph in Introduction**
 
@@ -90,7 +90,7 @@ tags:
 
 <br/>
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'>**The 2nd paragraph in Introduction**
 
@@ -118,7 +118,7 @@ tags:
 
   <span style='color: red'>**However.. People faced another problem.**
 
-<hr size="10">
+<hr size="20">
 
 <span style='background-color:orange; font-size:20pt;'>**The 3rd paragraph in Introduction**
 
@@ -149,7 +149,7 @@ Let's take a look at the left of Figure 1.
 
   <span style='color: red'>**So what on earth is the problem ?**
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'>**The 4th paragraph in Introduction**
 
@@ -206,7 +206,7 @@ The picture in the above is, "Sara".
 
   <span style = "color:red">**How can we reduce the difficulty of optimization?**</span>
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'>**The 5th paragraph in Introduction**
 
@@ -228,8 +228,8 @@ The picture in the above is, "Sara".
 <span style='background-color:orange; font-size:16pt;'>**Summary:**
   -   Explains Shorcut Connections
 
-<hr size="10">
-<hr size="10">
+<hr size="20">
+<hr size="20">
 
 <br/>
 
@@ -305,7 +305,7 @@ The picture in the above is, "Sara".
   **"Residual Networks"** with Residual Connections  
   can be made.
 
-<hr size="10">
+<hr size="20">
   <span style='background-color:orange; font-size:20pt;'>**The 7th ~ 9th paragraph in Introduction**
 
   ![7th~9th paragraphs](/assets/images/ResNet-review/다운로드 (15).png){: width="50%" height="50%"}
@@ -333,7 +333,7 @@ The picture in the above is, "Sara".
           
   Let's look into details in Figures and Tables.
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'>**Figure 3**
 
@@ -360,7 +360,7 @@ The picture in the above is, "Sara".
               -   Zero padding shortcuts
               -   Projection shortcuts
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'>**Table 1**
 
@@ -386,7 +386,7 @@ The picture in the above is, "Sara".
 
   ![ModifiedTable](/assets/images/ResNet-review/다운로드 (19).png){: width="100%" height="100%"}
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'>**Table 2**
 
@@ -405,7 +405,7 @@ The picture in the above is, "Sara".
 
 <br/>
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'>**Figure 4**
 
@@ -428,7 +428,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 <br/>
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'>**Let's summarize Table 2 and Figure 4.**
 
@@ -450,7 +450,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 <br/>
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'>**Table 3 ~ 5**
 
@@ -470,7 +470,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 <br/>
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'> **Table 3.**
 
@@ -509,7 +509,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
 <br/>
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'>Let's look into **the bottom of Table 3.**
 
@@ -541,7 +541,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
   is less than that of the building block in the red box,  
   so **the operation will be efficient.**
 
-<hr size="10">
+<hr size="20">
 
   <span style = 'background-color:orange; font-size:20pt;'>**Summary of the bottom of Table 3  + Table 4 + Table 5 :**
 
@@ -559,7 +559,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
       -   Made a ResNet Ensemble with 6 different ResNets.
       -   Won 2015 ILSVRC with Top-5 error 3.57% (Improved existing error 26%.)
 
-<hr size="10">
+<hr size="20">
 
   <span style = 'background-color:orange; font-size:20pt;'>**Table 6**
 
@@ -590,7 +590,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
   FitNet and Highway was learned with data augmentation, as well ?
   → Reviewing those models' papers, It was. However, augmentation mothods differ.*
 
-<hr size="10">
+<hr size="20">
 
   <span style = 'background-color:orange; font-size:20pt;'>**The left of Figure 6**
 
@@ -622,7 +622,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
   <span style='color:red; font-size:14pt;'>_**""The optimization difficulity of deep neural networks is a FUNDAMENTAL problem."**_</span>  
   *(It's not a matter of overfitting.)*
 
-<hr size="10">
+<hr size="20">
 
   <span style = 'background-color:orange; font-size:20pt;'>**The middle of Figure 6**
 
@@ -657,7 +657,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   It is also mentioned that follow-up research will be conducted by applying a Regularization technique such as Dropout.
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'>**Figure 7**
 
@@ -670,7 +670,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   **Figure 7 supports** such expectations.
 
-<hr size="10">
+<hr size="20">
 
   <span style='background-color:orange; font-size:20pt;'>**Table 7, 8**
 
@@ -679,7 +679,7 @@ In this plot, the residual networks have no extra parameter compared to their pl
 
   Tables 7 and 8 show the results of experiments with **ResNet on the Object Detection task as well as the Image Classification task.**
 
-<hr size="10">
+<hr size="20">
 
   Lastly, the authors **wrap up this paper emphasizing on the excellence of ResNet, mentioning the following competitions ResNet has won.**
 
