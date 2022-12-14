@@ -229,7 +229,6 @@ The picture in the above is, "Sara".
   -   Explains Shorcut Connections
 
 <hr color="gray" size="20">
-<hr color="gray" size="20">
 
 <br/>
 
@@ -299,7 +298,7 @@ The picture in the above is, "Sara".
   * Because All operations of FCNN and CNN only consists of multiplying and adding.  
   * Additionally, the weights flowing through the deep neural network have the property of approaching zero.  
 
-  3. Because there are no additional parameters to learn,  
+  1. Because there are no additional parameters to learn,  
   **A fair comparison** between  
   **"Plain Networks"** without Residual Connections  
   **"Residual Networks"** with Residual Connections  
