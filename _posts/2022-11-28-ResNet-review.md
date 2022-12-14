@@ -54,6 +54,8 @@ tags:
   So, Let’s get started !
 
 ---
+<hr color="black" size="10">
+
   <span style='background-color:orange; font-size:20pt;'>**Abstract & The heart of the paper**
 
   -   **Observed a problem : Degradation Problem.**  
